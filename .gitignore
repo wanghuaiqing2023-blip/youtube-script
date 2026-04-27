@@ -1,0 +1,12 @@
+.venv/
+.tmp/
+__pycache__/
+*.py[cod]
+
+# Local NLP model/cache directories. Re-download these in the target environment.
+stanza_resources/
+nltk_data/
+
+# Local/editor noise.
+.DS_Store
+Thumbs.db

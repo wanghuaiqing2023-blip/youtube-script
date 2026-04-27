@@ -1,0 +1,1039 @@
+{
+  "input": "sentence_units_complete.json",
+  "boundary_count": 474,
+  "suspicious_boundary_count": 36,
+  "suspicious": [
+    {
+      "left_id": 51,
+      "right_id": 52,
+      "left_duration": 7.726,
+      "right_duration": 8.707,
+      "left_words": 22,
+      "right_words": 25,
+      "crossings": [
+        {
+          "word": "something",
+          "upos": "PRON",
+          "deprel": "obj",
+          "side": "right",
+          "head": "say",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say",
+      "right_text": "something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something"
+    },
+    {
+      "left_id": 52,
+      "right_id": 53,
+      "left_duration": 8.707,
+      "right_duration": 6.605,
+      "left_words": 25,
+      "right_words": 20,
+      "crossings": [
+        {
+          "word": "what",
+          "upos": "PRON",
+          "deprel": "acl:relcl",
+          "side": "right",
+          "head": "something",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something",
+      "right_text": "this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "left_id": 67,
+      "right_id": 68,
+      "left_duration": 11.138,
+      "right_duration": 0.3,
+      "left_words": 20,
+      "right_words": 1,
+      "crossings": [
+        {
+          "word": "80",
+          "upos": "NUM",
+          "deprel": "compound",
+          "side": "left",
+          "head": "Eighty",
+          "head_side": "right"
+        },
+        {
+          "word": "Eighty",
+          "upos": "NUM",
+          "deprel": "nummod",
+          "side": "right",
+          "head": "daughter",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "butter butter computer computer i can't even say it with the with the t computer computer computer daughter daughter 80",
+      "right_text": "Eighty."
+    },
+    {
+      "left_id": 85,
+      "right_id": 86,
+      "left_duration": 4.982,
+      "right_duration": 13.524,
+      "left_words": 13,
+      "right_words": 35,
+      "crossings": [
+        {
+          "word": "what",
+          "upos": "PRON",
+          "deprel": "nsubj:outer",
+          "side": "left",
+          "head": "using",
+          "head_side": "right"
+        },
+        {
+          "word": "is",
+          "upos": "AUX",
+          "deprel": "cop",
+          "side": "left",
+          "head": "using",
+          "head_side": "right"
+        },
+        {
+          "word": "that",
+          "upos": "SCONJ",
+          "deprel": "mark",
+          "side": "left",
+          "head": "using",
+          "head_side": "right"
+        },
+        {
+          "word": "people",
+          "upos": "NOUN",
+          "deprel": "nsubj",
+          "side": "left",
+          "head": "using",
+          "head_side": "right"
+        }
+      ],
+      "left_text": "And what I've noticed is that people who are not English native speakers",
+      "right_text": "we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences"
+    },
+    {
+      "left_id": 86,
+      "right_id": 87,
+      "left_duration": 13.524,
+      "right_duration": 17.631,
+      "left_words": 35,
+      "right_words": 52,
+      "crossings": [
+        {
+          "word": "decided",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "using",
+          "head_side": "left"
+        },
+        {
+          "word": "able",
+          "upos": "ADJ",
+          "deprel": "advcl",
+          "side": "right",
+          "head": "started",
+          "head_side": "left"
+        },
+        {
+          "word": "sound",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "using",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences",
+      "right_text": "and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned"
+    },
+    {
+      "left_id": 87,
+      "right_id": 88,
+      "left_duration": 17.631,
+      "right_duration": 16.331,
+      "left_words": 52,
+      "right_words": 53,
+      "crossings": [
+        {
+          "word": "tips",
+          "upos": "NOUN",
+          "deprel": "obl",
+          "side": "right",
+          "head": "fashioned",
+          "head_side": "left"
+        },
+        {
+          "word": "end",
+          "upos": "NOUN",
+          "deprel": "obl:agent",
+          "side": "right",
+          "head": "fashioned",
+          "head_side": "left"
+        },
+        {
+          "word": "native",
+          "upos": "ADJ",
+          "deprel": "conj",
+          "side": "right",
+          "head": "fashioned",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned",
+      "right_text": "with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video You probably know it, but not all of you are using it in your everyday speech, and this thing is reduced forms."
+    },
+    {
+      "left_id": 106,
+      "right_id": 107,
+      "left_duration": 2.561,
+      "right_duration": 0.68,
+      "left_words": 8,
+      "right_words": 3,
+      "crossings": [
+        {
+          "word": "know",
+          "upos": "VERB",
+          "deprel": "acl:relcl",
+          "side": "right",
+          "head": "R.",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "And this D is actually replaced with R.",
+      "right_text": "I don't know."
+    },
+    {
+      "left_id": 154,
+      "right_id": 155,
+      "left_duration": 12.491,
+      "right_duration": 9.069,
+      "left_words": 30,
+      "right_words": 42,
+      "crossings": [
+        {
+          "word": "was",
+          "upos": "AUX",
+          "deprel": "conj",
+          "side": "right",
+          "head": "had",
+          "head_side": "left"
+        },
+        {
+          "word": "started",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "have",
+          "head_side": "left"
+        },
+        {
+          "word": "find",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "have",
+          "head_side": "left"
+        },
+        {
+          "word": "started",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "have",
+          "head_side": "left"
+        },
+        {
+          "word": "realized",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "have",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "Actually, anyway, basically, by the way erm by the way with erm I have a very interesting story when I was reading a book and they had this erm there",
+      "right_text": "and I was like what does that mean and I started digging it up in the dictionary and I couldn't find it and then I started googling it and then I realized this is just a way to write the sound erm"
+    },
+    {
+      "left_id": 236,
+      "right_id": 237,
+      "left_duration": 8.967,
+      "right_duration": 4.203,
+      "left_words": 30,
+      "right_words": 16,
+      "crossings": [
+        {
+          "word": "from",
+          "upos": "SCONJ",
+          "deprel": "mark",
+          "side": "left",
+          "head": "reading",
+          "head_side": "right"
+        },
+        {
+          "word": "just",
+          "upos": "ADV",
+          "deprel": "advmod",
+          "side": "left",
+          "head": "reading",
+          "head_side": "right"
+        },
+        {
+          "word": "reading",
+          "upos": "VERB",
+          "deprel": "advcl",
+          "side": "right",
+          "head": "figure",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "always always always learn the idioms because if somebody says i'm feeling under the weather and you're like what does that mean because you can't figure out from just uh",
+      "right_text": "reading this idiom what it means because to feel under the weather means to feel bad"
+    },
+    {
+      "left_id": 237,
+      "right_id": 238,
+      "left_duration": 4.203,
+      "right_duration": 6.645,
+      "left_words": 16,
+      "right_words": 27,
+      "crossings": [
+        {
+          "word": "supposed",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "means",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "reading this idiom what it means because to feel under the weather means to feel bad",
+      "right_text": "but how are you supposed to figure it out if it's sunny outside if the sun is shining and if the weather is amazing how can feeling"
+    },
+    {
+      "left_id": 238,
+      "right_id": 239,
+      "left_duration": 6.645,
+      "right_duration": 5.484,
+      "left_words": 27,
+      "right_words": 21,
+      "crossings": [
+        {
+          "word": "amazing",
+          "upos": "ADJ",
+          "deprel": "advcl",
+          "side": "left",
+          "head": "thing",
+          "head_side": "right"
+        },
+        {
+          "word": "how",
+          "upos": "ADV",
+          "deprel": "advmod",
+          "side": "left",
+          "head": "thing",
+          "head_side": "right"
+        },
+        {
+          "word": "can",
+          "upos": "AUX",
+          "deprel": "aux",
+          "side": "left",
+          "head": "thing",
+          "head_side": "right"
+        },
+        {
+          "word": "feeling",
+          "upos": "VERB",
+          "deprel": "csubj",
+          "side": "left",
+          "head": "thing",
+          "head_side": "right"
+        },
+        {
+          "word": "weather",
+          "upos": "NOUN",
+          "deprel": "obl",
+          "side": "right",
+          "head": "feeling",
+          "head_side": "left"
+        },
+        {
+          "word": "thing",
+          "upos": "NOUN",
+          "deprel": "conj",
+          "side": "right",
+          "head": "supposed",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "but how are you supposed to figure it out if it's sunny outside if the sun is shining and if the weather is amazing how can feeling",
+      "right_text": "under the weather be a bad thing but it is a little under the weather this morning Let's play by ear."
+    },
+    {
+      "left_id": 308,
+      "right_id": 309,
+      "left_duration": 13.45,
+      "right_duration": 4.104,
+      "left_words": 46,
+      "right_words": 16,
+      "crossings": [
+        {
+          "word": "know",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "say",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "The right reaction from your side would not be like oh yeah it's really cold but if you can do something like maybe you could close the window because i said it's cold maybe i'm visiting you at your place and i say it's really cold",
+      "right_text": "and maybe you know that the air conditioning is on and you would be like oh"
+    },
+    {
+      "left_id": 311,
+      "right_id": 312,
+      "left_duration": 6.523,
+      "right_duration": 7.443,
+      "left_words": 25,
+      "right_words": 29,
+      "crossings": [
+        {
+          "word": "i",
+          "upos": "PRON",
+          "deprel": "nsubj",
+          "side": "left",
+          "head": "feel",
+          "head_side": "right"
+        },
+        {
+          "word": "feel",
+          "upos": "VERB",
+          "deprel": "ccomp",
+          "side": "right",
+          "head": "know",
+          "head_side": "left"
+        },
+        {
+          "word": "telling",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "want",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "they don't want to force you to do something but they're kind of giving you hints uh it's a little cold here you know i",
+      "right_text": "feel a little uncomfortable working with that person and they're not telling you directly that they don't want to work with that person they want you to take action"
+    },
+    {
+      "left_id": 312,
+      "right_id": 313,
+      "left_duration": 7.443,
+      "right_duration": 7.223,
+      "left_words": 29,
+      "right_words": 27,
+      "crossings": [
+        {
+          "word": "want",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "want",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "feel a little uncomfortable working with that person and they're not telling you directly that they don't want to work with that person they want you to take action",
+      "right_text": "they want you to make a decision or for example you know i don't really have time tomorrow to come and then you should offer something different."
+    },
+    {
+      "left_id": 337,
+      "right_id": 338,
+      "left_duration": 2.141,
+      "right_duration": 12.367,
+      "left_words": 10,
+      "right_words": 52,
+      "crossings": [
+        {
+          "word": "everything",
+          "upos": "PRON",
+          "deprel": "obj",
+          "side": "right",
+          "head": "spend",
+          "head_side": "left"
+        },
+        {
+          "word": "get",
+          "upos": "VERB",
+          "deprel": "advcl",
+          "side": "right",
+          "head": "spend",
+          "head_side": "left"
+        },
+        {
+          "word": "thought",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "tell",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "And the person would tell me that you would spend",
+      "right_text": "everything that you got this month in order to get some groceries and whole foods and i thought like wow if they're getting like ten thousand dollars a month do they spend all of that but of course it was a joke yes it's expensive but you don't spend the whole thing"
+    },
+    {
+      "left_id": 339,
+      "right_id": 340,
+      "left_duration": 9.025,
+      "right_duration": 8.106,
+      "left_words": 31,
+      "right_words": 31,
+      "crossings": [
+        {
+          "word": "need",
+          "upos": "VERB",
+          "deprel": "ccomp",
+          "side": "right",
+          "head": "promise",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "so learn to understand sarcasm it's gonna take a while especially if you're like me i take people really seriously all the time uh but you're gonna learn it i promise",
+      "right_text": "the next thing that we've already touched upon in this class is you need to connect words and i'm gonna give you some examples Instead of saying, could you join me?"
+    },
+    {
+      "left_id": 355,
+      "right_id": 356,
+      "left_duration": 6.724,
+      "right_duration": 15.71,
+      "left_words": 21,
+      "right_words": 44,
+      "crossings": [
+        {
+          "word": "something",
+          "upos": "PRON",
+          "deprel": "conj",
+          "side": "right",
+          "head": "casual",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "yeah of course well they say yes of course they say yes but yeah is more informal yeah is more casual",
+      "right_text": "and yeah is something that's more widely used than yes yes is kind of well you know what's yes sure yeah yeah the phrase is no problem instead of no problem you can say no problem or you can say no worries two phrases"
+    },
+    {
+      "left_id": 356,
+      "right_id": 357,
+      "left_duration": 15.71,
+      "right_duration": 6.604,
+      "left_words": 44,
+      "right_words": 21,
+      "crossings": [
+        {
+          "word": "use",
+          "upos": "VERB",
+          "deprel": "acl:relcl",
+          "side": "right",
+          "head": "phrases",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "and yeah is something that's more widely used than yes yes is kind of well you know what's yes sure yeah yeah the phrase is no problem instead of no problem you can say no problem or you can say no worries two phrases",
+      "right_text": "that americans use all the time really casual really nice phrases hey guys welcome to lingua marina a lot of you"
+    },
+    {
+      "left_id": 357,
+      "right_id": 358,
+      "left_duration": 6.604,
+      "right_duration": 10.688,
+      "left_words": 21,
+      "right_words": 34,
+      "crossings": [
+        {
+          "word": "lot",
+          "upos": "NOUN",
+          "deprel": "obl:unmarked",
+          "side": "left",
+          "head": "dm",
+          "head_side": "right"
+        },
+        {
+          "word": "marina",
+          "upos": "NOUN",
+          "deprel": "conj",
+          "side": "right",
+          "head": "use",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "that americans use all the time really casual really nice phrases hey guys welcome to lingua marina a lot of you",
+      "right_text": "dm me on instagram and if you don't follow me on instagram it's lingua marina or a lot of you write comments here on youtube saying Marina, I've been learning English for several years."
+    },
+    {
+      "left_id": 369,
+      "right_id": 370,
+      "left_duration": 6.727,
+      "right_duration": 13.782,
+      "left_words": 13,
+      "right_words": 40,
+      "crossings": [
+        {
+          "word": "mean",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "tend",
+          "head_side": "left"
+        },
+        {
+          "word": "say",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "tend",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "in american english people tend to avoid non-essential words by making them weak",
+      "right_text": "and by that i mean that there is no stress on those words when people talk let me give you some examples so for example fish and chips right three words but when we talk we say fish and chips"
+    },
+    {
+      "left_id": 370,
+      "right_id": 371,
+      "left_duration": 13.782,
+      "right_duration": 14.417,
+      "left_words": 40,
+      "right_words": 51,
+      "crossings": [
+        {
+          "word": "way",
+          "upos": "NOUN",
+          "deprel": "obl",
+          "side": "right",
+          "head": "say",
+          "head_side": "left"
+        },
+        {
+          "word": "word",
+          "upos": "NOUN",
+          "deprel": "obj",
+          "side": "right",
+          "head": "say",
+          "head_side": "left"
+        },
+        {
+          "word": "form",
+          "upos": "NOUN",
+          "deprel": "conj",
+          "side": "right",
+          "head": "say",
+          "head_side": "left"
+        },
+        {
+          "word": "say",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "say",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "and by that i mean that there is no stress on those words when people talk let me give you some examples so for example fish and chips right three words but when we talk we say fish and chips",
+      "right_text": "in this way the word and is in a weak form and basically it will only say in fish and chips that's it fish and chips please And this way, maybe you know what fish and chips is, but when people say fish and chips, you're like, oh, what was that?"
+    },
+    {
+      "left_id": 413,
+      "right_id": 414,
+      "left_duration": 9.705,
+      "right_duration": 14.087,
+      "left_words": 24,
+      "right_words": 35,
+      "crossings": [
+        {
+          "word": "called",
+          "upos": "VERB",
+          "deprel": "ccomp",
+          "side": "right",
+          "head": "busy",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "which means is he busy but we actually omitted sound h and we have easy busy you see what's going on is he busy",
+      "right_text": "the next thing is called elision and this is when one sound is substituted by another sound or completely disappears from a word again widely used in america in great britain you would say interview"
+    },
+    {
+      "left_id": 414,
+      "right_id": 415,
+      "left_duration": 14.087,
+      "right_duration": 3.962,
+      "left_words": 35,
+      "right_words": 8,
+      "crossings": [
+        {
+          "word": "interview",
+          "upos": "NOUN",
+          "deprel": "obl",
+          "side": "right",
+          "head": "say",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "the next thing is called elision and this is when one sound is substituted by another sound or completely disappears from a word again widely used in america in great britain you would say interview",
+      "right_text": "in america interview so t here just disappears"
+    },
+    {
+      "left_id": 422,
+      "right_id": 423,
+      "left_duration": 10.438,
+      "right_duration": 8.204,
+      "left_words": 15,
+      "right_words": 22,
+      "crossings": [
+        {
+          "word": "thing",
+          "upos": "NOUN",
+          "deprel": "conj",
+          "side": "right",
+          "head": "wanted",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "And center is very British. learning center wanted instead of wanted butter instead of butter",
+      "right_text": "and this is another thing americans do when you have double t it is substituted by d and it's again called elision"
+    },
+    {
+      "left_id": 423,
+      "right_id": 424,
+      "left_duration": 8.204,
+      "right_duration": 13.71,
+      "left_words": 22,
+      "right_words": 29,
+      "crossings": [
+        {
+          "word": "elision",
+          "upos": "NOUN",
+          "deprel": "compound",
+          "side": "left",
+          "head": "butter",
+          "head_side": "right"
+        },
+        {
+          "word": "butter",
+          "upos": "NOUN",
+          "deprel": "xcomp",
+          "side": "right",
+          "head": "called",
+          "head_side": "left"
+        },
+        {
+          "word": "butter",
+          "upos": "NOUN",
+          "deprel": "xcomp",
+          "side": "right",
+          "head": "called",
+          "head_side": "left"
+        },
+        {
+          "word": "pronunciation",
+          "upos": "NOUN",
+          "deprel": "conj",
+          "side": "right",
+          "head": "called",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "and this is another thing americans do when you have double t it is substituted by d and it's again called elision",
+      "right_text": "butter not butter but again if you want to sound more british butter is the pronunciation you would go for next door this is where we have both linking"
+    },
+    {
+      "left_id": 424,
+      "right_id": 425,
+      "left_duration": 13.71,
+      "right_duration": 9.267,
+      "left_words": 29,
+      "right_words": 24,
+      "crossings": [
+        {
+          "word": "illusion",
+          "upos": "NOUN",
+          "deprel": "conj",
+          "side": "right",
+          "head": "linking",
+          "head_side": "left"
+        },
+        {
+          "word": "way",
+          "upos": "NOUN",
+          "deprel": "advcl",
+          "side": "right",
+          "head": "have",
+          "head_side": "left"
+        },
+        {
+          "word": "told",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "have",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "butter not butter but again if you want to sound more british butter is the pronunciation you would go for next door this is where we have both linking",
+      "right_text": "and illusion because next door is the way we would pronounce it if we were at school and the teacher told us pronounce everything"
+    },
+    {
+      "left_id": 425,
+      "right_id": 426,
+      "left_duration": 9.267,
+      "right_duration": 9.281,
+      "left_words": 24,
+      "right_words": 25,
+      "crossings": [
+        {
+          "word": "say",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "told",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "and illusion because next door is the way we would pronounce it if we were at school and the teacher told us pronounce everything",
+      "right_text": "but if we want to sound more american we'll say next door where the t disappears and two words get linked together Oh, next door."
+    },
+    {
+      "left_id": 434,
+      "right_id": 435,
+      "left_duration": 5.061,
+      "right_duration": 12.723,
+      "left_words": 23,
+      "right_words": 39,
+      "crossings": [
+        {
+          "word": "become",
+          "upos": "VERB",
+          "deprel": "ccomp",
+          "side": "right",
+          "head": "start",
+          "head_side": "left"
+        },
+        {
+          "word": "start",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "have",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "and you kind of have this in mind what you just learned when you have this in mind and you start noticing it",
+      "right_text": "it will become a lot easier for you to understand native speakers and once you start noticing those things the way native speakers use them you will start using them yourself and your speech would become even better assimilation"
+    },
+    {
+      "left_id": 436,
+      "right_id": 437,
+      "left_duration": 10.503,
+      "right_duration": 0.76,
+      "left_words": 34,
+      "right_words": 4,
+      "crossings": [
+        {
+          "word": "that",
+          "upos": "SCONJ",
+          "deprel": "mark",
+          "side": "left",
+          "head": "Let",
+          "head_side": "right"
+        },
+        {
+          "word": "school",
+          "upos": "NOUN",
+          "deprel": "obl",
+          "side": "left",
+          "head": "Let",
+          "head_side": "right"
+        },
+        {
+          "word": "Let",
+          "upos": "VERB",
+          "deprel": "ccomp",
+          "side": "right",
+          "head": "learn",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "i'm pretty sure a lot of you guys love american songs and uh you hear people saying don't you want you and you're like what does that mean we didn't learn that at school",
+      "right_text": "Let me explain this."
+    },
+    {
+      "left_id": 458,
+      "right_id": 459,
+      "left_duration": 9.243,
+      "right_duration": 4.321,
+      "left_words": 25,
+      "right_words": 11,
+      "crossings": [
+        {
+          "word": "it",
+          "upos": "PRON",
+          "deprel": "obj",
+          "side": "right",
+          "head": "Do",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "Do it is pronounced as do it. So we kind of have this extra letter between the two words, W, and it's pronounced as U.",
+      "right_text": "Do it. How did you do it? Do it. He asked."
+    },
+    {
+      "left_id": 460,
+      "right_id": 461,
+      "left_duration": 4.246,
+      "right_duration": 9.052,
+      "left_words": 16,
+      "right_words": 31,
+      "crossings": [
+        {
+          "word": "singing",
+          "upos": "VERB",
+          "deprel": "ccomp",
+          "side": "right",
+          "head": "asked",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "again you can say he asked but you would say he asked me to go out",
+      "right_text": "we're singing in a language to sound more natural so this he asked we have this extra y between these two words and this is why it sounds like he asked"
+    },
+    {
+      "left_id": 468,
+      "right_id": 469,
+      "left_duration": 10.482,
+      "right_duration": 12.488,
+      "left_words": 31,
+      "right_words": 37,
+      "crossings": [
+        {
+          "word": "tell",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "woke",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "woke up we would just say woke up pet turtle here we have two t's that are together we just connect them pet turtle that's it we got a new pet",
+      "right_text": "If you think that you need more tricks like these, I highly recommend a course that a teacher who is not a native speaker, but who sounds just like a native speaker, and nobody can actually tell"
+    },
+    {
+      "left_id": 469,
+      "right_id": 470,
+      "left_duration": 12.488,
+      "right_duration": 6.545,
+      "left_words": 37,
+      "right_words": 25,
+      "crossings": [
+        {
+          "word": "born",
+          "upos": "VERB",
+          "deprel": "ccomp",
+          "side": "right",
+          "head": "tell",
+          "head_side": "left"
+        },
+        {
+          "word": "put",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "recommend",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "If you think that you need more tricks like these, I highly recommend a course that a teacher who is not a native speaker, but who sounds just like a native speaker, and nobody can actually tell",
+      "right_text": "that he wasn't born in America, he has put together this course for a Lingotrip, and I would highly recommend you to take this course."
+    },
+    {
+      "left_id": 472,
+      "right_id": 473,
+      "left_duration": 6.143,
+      "right_duration": 11.385,
+      "left_words": 25,
+      "right_words": 36,
+      "crossings": [
+        {
+          "word": "below",
+          "upos": "ADV",
+          "deprel": "conj",
+          "side": "right",
+          "head": "learn",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "And in this course, you would learn them, you would practice them and you would hear a lot more examples than i've given you today",
+      "right_text": "so if you are on track to speak like a native speaker and to understand natives then the link will be below it's gonna wait there for you please take this course and improve your speech"
+    },
+    {
+      "left_id": 473,
+      "right_id": 474,
+      "left_duration": 11.385,
+      "right_duration": 6.642,
+      "left_words": 36,
+      "right_words": 26,
+      "crossings": [
+        {
+          "word": "thank",
+          "upos": "VERB",
+          "deprel": "xcomp",
+          "side": "right",
+          "head": "improve",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "so if you are on track to speak like a native speaker and to understand natives then the link will be below it's gonna wait there for you please take this course and improve your speech",
+      "right_text": "thank you so much for watching this video up to the very end guys hit subscribe to subscribe this channel in order to not miss my"
+    },
+    {
+      "left_id": 474,
+      "right_id": 475,
+      "left_duration": 6.642,
+      "right_duration": 5.883,
+      "left_words": 26,
+      "right_words": 22,
+      "crossings": [
+        {
+          "word": "my",
+          "upos": "PRON",
+          "deprel": "nmod:poss",
+          "side": "left",
+          "head": "videos",
+          "head_side": "right"
+        },
+        {
+          "word": "videos",
+          "upos": "NOUN",
+          "deprel": "obj",
+          "side": "right",
+          "head": "miss",
+          "head_side": "left"
+        },
+        {
+          "word": "see",
+          "upos": "VERB",
+          "deprel": "conj",
+          "side": "right",
+          "head": "thank",
+          "head_side": "left"
+        }
+      ],
+      "left_text": "thank you so much for watching this video up to the very end guys hit subscribe to subscribe this channel in order to not miss my",
+      "right_text": "next videos and i will see you very soon on this channel and on my instagram lingua marina thank you and bye"
+    }
+  ]
+}

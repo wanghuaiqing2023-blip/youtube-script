@@ -1,0 +1,3760 @@
+{
+  "input": "sentence_units_stanza_dp_final.json",
+  "audited_count": 484,
+  "suspicious_count": 37,
+  "suspicious": [
+    {
+      "id": 37,
+      "start": 138.438,
+      "end": 140.199,
+      "duration": 1.761,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Oh, what about the weather report?",
+      "parsed_sentences": [
+        {
+          "text": "Oh, what about the weather report?",
+          "tokens": [
+            {
+              "text": "Oh",
+              "upos": "INTJ",
+              "head": 3,
+              "deprel": "discourse"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            },
+            {
+              "text": "what",
+              "upos": "PRON",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "about",
+              "upos": "ADP",
+              "head": 7,
+              "deprel": "case"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 7,
+              "deprel": "det"
+            },
+            {
+              "text": "weather",
+              "upos": "NOUN",
+              "head": 7,
+              "deprel": "compound"
+            },
+            {
+              "text": "report",
+              "upos": "NOUN",
+              "head": 3,
+              "deprel": "nmod"
+            },
+            {
+              "text": "?",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start": 183.337,
+      "end": 185.898,
+      "duration": 2.561,
+      "word_count": 8,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "For example, what you do for a living.",
+      "parsed_sentences": [
+        {
+          "text": "For example, what you do for a living.",
+          "tokens": [
+            {
+              "text": "For",
+              "upos": "ADP",
+              "head": 2,
+              "deprel": "case"
+            },
+            {
+              "text": "example",
+              "upos": "NOUN",
+              "head": 4,
+              "deprel": "obl"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            },
+            {
+              "text": "what",
+              "upos": "PRON",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 6,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "do",
+              "upos": "VERB",
+              "head": 4,
+              "deprel": "acl:relcl"
+            },
+            {
+              "text": "for",
+              "upos": "ADP",
+              "head": 9,
+              "deprel": "case"
+            },
+            {
+              "text": "a",
+              "upos": "DET",
+              "head": 9,
+              "deprel": "det"
+            },
+            {
+              "text": "living",
+              "upos": "NOUN",
+              "head": 6,
+              "deprel": "obl"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 4,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "start": 299.018,
+      "end": 310.261,
+      "duration": 11.243,
+      "word_count": 19,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Bottle, bottle. butter butter computer computer i can't even say it with the with the t computer computer computer",
+      "parsed_sentences": [
+        {
+          "text": "Bottle, bottle.",
+          "tokens": [
+            {
+              "text": "Bottle",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            },
+            {
+              "text": "bottle",
+              "upos": "NOUN",
+              "head": 1,
+              "deprel": "vocative"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        },
+        {
+          "text": "butter butter computer computer i can't even say it with the with the t computer computer computer",
+          "tokens": [
+            {
+              "text": "butter",
+              "upos": "NOUN",
+              "head": 2,
+              "deprel": "compound"
+            },
+            {
+              "text": "butter",
+              "upos": "NOUN",
+              "head": 4,
+              "deprel": "compound"
+            },
+            {
+              "text": "computer",
+              "upos": "NOUN",
+              "head": 4,
+              "deprel": "compound"
+            },
+            {
+              "text": "computer",
+              "upos": "NOUN",
+              "head": 9,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "i",
+              "upos": "PRON",
+              "head": 9,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "ca",
+              "upos": "AUX",
+              "head": 9,
+              "deprel": "aux"
+            },
+            {
+              "text": "n't",
+              "upos": "PART",
+              "head": 9,
+              "deprel": "advmod"
+            },
+            {
+              "text": "even",
+              "upos": "ADV",
+              "head": 9,
+              "deprel": "advmod"
+            },
+            {
+              "text": "say",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 9,
+              "deprel": "obj"
+            },
+            {
+              "text": "with",
+              "upos": "ADP",
+              "head": 12,
+              "deprel": "case"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 18,
+              "deprel": "det"
+            },
+            {
+              "text": "with",
+              "upos": "ADP",
+              "head": 18,
+              "deprel": "case"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 18,
+              "deprel": "det"
+            },
+            {
+              "text": "t",
+              "upos": "NOUN",
+              "head": 18,
+              "deprel": "compound"
+            },
+            {
+              "text": "computer",
+              "upos": "NOUN",
+              "head": 17,
+              "deprel": "compound"
+            },
+            {
+              "text": "computer",
+              "upos": "NOUN",
+              "head": 18,
+              "deprel": "compound"
+            },
+            {
+              "text": "computer",
+              "upos": "NOUN",
+              "head": 9,
+              "deprel": "obl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "start": 310.802,
+      "end": 317.264,
+      "duration": 6.462,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "daughter daughter 80 Eighty. Forty. Forty.",
+      "parsed_sentences": [
+        {
+          "text": "daughter daughter 80 Eighty.",
+          "tokens": [
+            {
+              "text": "daughter",
+              "upos": "NOUN",
+              "head": 2,
+              "deprel": "compound"
+            },
+            {
+              "text": "daughter",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "80",
+              "upos": "NUM",
+              "head": 2,
+              "deprel": "dep"
+            },
+            {
+              "text": "Eighty",
+              "upos": "NUM",
+              "head": 2,
+              "deprel": "dep"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        },
+        {
+          "text": "Forty.",
+          "tokens": [
+            {
+              "text": "Forty",
+              "upos": "NUM",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        },
+        {
+          "text": "Forty.",
+          "tokens": [
+            {
+              "text": "Forty",
+              "upos": "NUM",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "start": 358.9,
+      "end": 360.783,
+      "duration": 1.883,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Hey guys, welcome to my channel.",
+      "parsed_sentences": [
+        {
+          "text": "Hey guys, welcome to my channel.",
+          "tokens": [
+            {
+              "text": "Hey",
+              "upos": "INTJ",
+              "head": 4,
+              "deprel": "discourse"
+            },
+            {
+              "text": "guys",
+              "upos": "NOUN",
+              "head": 4,
+              "deprel": "vocative"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            },
+            {
+              "text": "welcome",
+              "upos": "INTJ",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "to",
+              "upos": "ADP",
+              "head": 7,
+              "deprel": "case"
+            },
+            {
+              "text": "my",
+              "upos": "PRON",
+              "head": 7,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "channel",
+              "upos": "NOUN",
+              "head": 4,
+              "deprel": "obl"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 4,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "start": 387.826,
+      "end": 401.613,
+      "duration": 13.787,
+      "word_count": 41,
+      "issues": [
+        "starts_with_dependent_cconj"
+      ],
+      "text": "and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I",
+      "parsed_sentences": [
+        {
+          "text": "and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I",
+          "tokens": [
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 9,
+              "deprel": "cc"
+            },
+            {
+              "text": "when",
+              "upos": "ADV",
+              "head": 4,
+              "deprel": "advmod"
+            },
+            {
+              "text": "was",
+              "upos": "AUX",
+              "head": 4,
+              "deprel": "aux"
+            },
+            {
+              "text": "listening",
+              "upos": "VERB",
+              "head": 9,
+              "deprel": "advcl"
+            },
+            {
+              "text": "to",
+              "upos": "ADP",
+              "head": 7,
+              "deprel": "case"
+            },
+            {
+              "text": "those",
+              "upos": "DET",
+              "head": 7,
+              "deprel": "det"
+            },
+            {
+              "text": "people",
+              "upos": "NOUN",
+              "head": 4,
+              "deprel": "obl"
+            },
+            {
+              "text": "I",
+              "upos": "PRON",
+              "head": 9,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "started",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "noting",
+              "upos": "VERB",
+              "head": 9,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "those",
+              "upos": "DET",
+              "head": 12,
+              "deprel": "det"
+            },
+            {
+              "text": "differences",
+              "upos": "NOUN",
+              "head": 10,
+              "deprel": "obj"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 15,
+              "deprel": "cc"
+            },
+            {
+              "text": "I",
+              "upos": "PRON",
+              "head": 15,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "decided",
+              "upos": "VERB",
+              "head": 9,
+              "deprel": "conj"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 17,
+              "deprel": "mark"
+            },
+            {
+              "text": "share",
+              "upos": "VERB",
+              "head": 15,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "my",
+              "upos": "PRON",
+              "head": 19,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "insights",
+              "upos": "NOUN",
+              "head": 17,
+              "deprel": "obj"
+            },
+            {
+              "text": "with",
+              "upos": "ADP",
+              "head": 21,
+              "deprel": "case"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 17,
+              "deprel": "obl"
+            },
+            {
+              "text": "because",
+              "upos": "SCONJ",
+              "head": 29,
+              "deprel": "mark"
+            },
+            {
+              "text": "with",
+              "upos": "ADP",
+              "head": 25,
+              "deprel": "case"
+            },
+            {
+              "text": "these",
+              "upos": "DET",
+              "head": 25,
+              "deprel": "det"
+            },
+            {
+              "text": "insights",
+              "upos": "NOUN",
+              "head": 29,
+              "deprel": "obl"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 29,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "will",
+              "upos": "AUX",
+              "head": 29,
+              "deprel": "aux"
+            },
+            {
+              "text": "be",
+              "upos": "AUX",
+              "head": 29,
+              "deprel": "cop"
+            },
+            {
+              "text": "able",
+              "upos": "ADJ",
+              "head": 15,
+              "deprel": "advcl"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 31,
+              "deprel": "mark"
+            },
+            {
+              "text": "speak",
+              "upos": "VERB",
+              "head": 29,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "English",
+              "upos": "PROPN",
+              "head": 31,
+              "deprel": "obj"
+            },
+            {
+              "text": "as",
+              "upos": "ADP",
+              "head": 36,
+              "deprel": "case"
+            },
+            {
+              "text": "a",
+              "upos": "DET",
+              "head": 36,
+              "deprel": "det"
+            },
+            {
+              "text": "native",
+              "upos": "ADJ",
+              "head": 36,
+              "deprel": "amod"
+            },
+            {
+              "text": "speaker",
+              "upos": "NOUN",
+              "head": 31,
+              "deprel": "obl"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 41,
+              "deprel": "cc"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 41,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "would",
+              "upos": "AUX",
+              "head": 41,
+              "deprel": "aux"
+            },
+            {
+              "text": "n't",
+              "upos": "PART",
+              "head": 41,
+              "deprel": "advmod"
+            },
+            {
+              "text": "sound",
+              "upos": "VERB",
+              "head": 29,
+              "deprel": "conj"
+            },
+            {
+              "text": "I",
+              "upos": "PRON",
+              "head": 41,
+              "deprel": "obj"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "start": 624.305,
+      "end": 627.646,
+      "duration": 3.341,
+      "word_count": 11,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "a lot of visual examples of how to use different articles.",
+      "parsed_sentences": [
+        {
+          "text": "a lot of visual examples of how to use different articles.",
+          "tokens": [
+            {
+              "text": "a",
+              "upos": "DET",
+              "head": 2,
+              "deprel": "det"
+            },
+            {
+              "text": "lot",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "of",
+              "upos": "ADP",
+              "head": 5,
+              "deprel": "case"
+            },
+            {
+              "text": "visual",
+              "upos": "ADJ",
+              "head": 5,
+              "deprel": "amod"
+            },
+            {
+              "text": "examples",
+              "upos": "NOUN",
+              "head": 2,
+              "deprel": "nmod"
+            },
+            {
+              "text": "of",
+              "upos": "ADP",
+              "head": 7,
+              "deprel": "case"
+            },
+            {
+              "text": "how",
+              "upos": "ADV",
+              "head": 5,
+              "deprel": "nmod"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 9,
+              "deprel": "mark"
+            },
+            {
+              "text": "use",
+              "upos": "VERB",
+              "head": 7,
+              "deprel": "acl"
+            },
+            {
+              "text": "different",
+              "upos": "ADJ",
+              "head": 11,
+              "deprel": "amod"
+            },
+            {
+              "text": "articles",
+              "upos": "NOUN",
+              "head": 9,
+              "deprel": "obj"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "start": 728.107,
+      "end": 733.612,
+      "duration": 5.505,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "I mean, incidentally, in fact. Obviously.",
+      "parsed_sentences": [
+        {
+          "text": "I mean, incidentally, in fact.",
+          "tokens": [
+            {
+              "text": "I",
+              "upos": "PRON",
+              "head": 2,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "mean",
+              "upos": "VERB",
+              "head": 4,
+              "deprel": "parataxis"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            },
+            {
+              "text": "incidentally",
+              "upos": "ADV",
+              "head": 7,
+              "deprel": "advmod"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 4,
+              "deprel": "punct"
+            },
+            {
+              "text": "in",
+              "upos": "ADP",
+              "head": 7,
+              "deprel": "case"
+            },
+            {
+              "text": "fact",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        },
+        {
+          "text": "Obviously.",
+          "tokens": [
+            {
+              "text": "Obviously",
+              "upos": "ADV",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "start": 765.579,
+      "end": 767.64,
+      "duration": 2.061,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "13 words instead of 20 words.",
+      "parsed_sentences": [
+        {
+          "text": "13 words instead of 20 words.",
+          "tokens": [
+            {
+              "text": "13",
+              "upos": "NUM",
+              "head": 2,
+              "deprel": "nummod"
+            },
+            {
+              "text": "words",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "instead",
+              "upos": "ADV",
+              "head": 6,
+              "deprel": "case"
+            },
+            {
+              "text": "of",
+              "upos": "ADP",
+              "head": 3,
+              "deprel": "fixed"
+            },
+            {
+              "text": "20",
+              "upos": "NUM",
+              "head": 6,
+              "deprel": "nummod"
+            },
+            {
+              "text": "words",
+              "upos": "NOUN",
+              "head": 2,
+              "deprel": "nmod"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "start": 778.725,
+      "end": 781.347,
+      "duration": 2.622,
+      "word_count": 5,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "The next important thing, contractions.",
+      "parsed_sentences": [
+        {
+          "text": "The next important thing, contractions.",
+          "tokens": [
+            {
+              "text": "The",
+              "upos": "DET",
+              "head": 4,
+              "deprel": "det"
+            },
+            {
+              "text": "next",
+              "upos": "ADJ",
+              "head": 4,
+              "deprel": "amod"
+            },
+            {
+              "text": "important",
+              "upos": "ADJ",
+              "head": 4,
+              "deprel": "amod"
+            },
+            {
+              "text": "thing",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 6,
+              "deprel": "punct"
+            },
+            {
+              "text": "contractions",
+              "upos": "NOUN",
+              "head": 4,
+              "deprel": "vocative"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 4,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "start": 796.229,
+      "end": 797.01,
+      "duration": 0.781,
+      "word_count": 3,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Um, like um.",
+      "parsed_sentences": [
+        {
+          "text": "Um, like um.",
+          "tokens": [
+            {
+              "text": "Um",
+              "upos": "INTJ",
+              "head": 3,
+              "deprel": "discourse"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            },
+            {
+              "text": "like",
+              "upos": "INTJ",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "um",
+              "upos": "INTJ",
+              "head": 3,
+              "deprel": "discourse"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "start": 980.711,
+      "end": 992.94,
+      "duration": 12.229,
+      "word_count": 48,
+      "issues": [
+        "starts_with_dependent_cconj"
+      ],
+      "text": "but how are you supposed to figure it out if it's sunny outside if the sun is shining and if the weather is amazing how can feeling under the weather be a bad thing but it is a little under the weather this morning Let's play by ear.",
+      "parsed_sentences": [
+        {
+          "text": "but how are you supposed to figure it out if it's sunny outside if the sun is shining and if the weather is amazing how can feeling under the weather be a bad thing but it is a little under the weather this morning Let's play by ear.",
+          "tokens": [
+            {
+              "text": "but",
+              "upos": "CCONJ",
+              "head": 5,
+              "deprel": "cc"
+            },
+            {
+              "text": "how",
+              "upos": "ADV",
+              "head": 5,
+              "deprel": "advmod"
+            },
+            {
+              "text": "are",
+              "upos": "AUX",
+              "head": 5,
+              "deprel": "aux:pass"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 5,
+              "deprel": "nsubj:pass"
+            },
+            {
+              "text": "supposed",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 7,
+              "deprel": "mark"
+            },
+            {
+              "text": "figure",
+              "upos": "VERB",
+              "head": 5,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 7,
+              "deprel": "obj"
+            },
+            {
+              "text": "out",
+              "upos": "ADP",
+              "head": 7,
+              "deprel": "compound:prt"
+            },
+            {
+              "text": "if",
+              "upos": "SCONJ",
+              "head": 13,
+              "deprel": "mark"
+            },
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 13,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "'s",
+              "upos": "AUX",
+              "head": 13,
+              "deprel": "cop"
+            },
+            {
+              "text": "sunny",
+              "upos": "ADJ",
+              "head": 7,
+              "deprel": "advcl"
+            },
+            {
+              "text": "outside",
+              "upos": "ADV",
+              "head": 13,
+              "deprel": "advmod"
+            },
+            {
+              "text": "if",
+              "upos": "SCONJ",
+              "head": 19,
+              "deprel": "mark"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 17,
+              "deprel": "det"
+            },
+            {
+              "text": "sun",
+              "upos": "NOUN",
+              "head": 19,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "is",
+              "upos": "AUX",
+              "head": 19,
+              "deprel": "aux"
+            },
+            {
+              "text": "shining",
+              "upos": "VERB",
+              "head": 13,
+              "deprel": "advcl"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 35,
+              "deprel": "cc"
+            },
+            {
+              "text": "if",
+              "upos": "SCONJ",
+              "head": 25,
+              "deprel": "mark"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 23,
+              "deprel": "det"
+            },
+            {
+              "text": "weather",
+              "upos": "NOUN",
+              "head": 25,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "is",
+              "upos": "AUX",
+              "head": 25,
+              "deprel": "cop"
+            },
+            {
+              "text": "amazing",
+              "upos": "ADJ",
+              "head": 35,
+              "deprel": "advcl"
+            },
+            {
+              "text": "how",
+              "upos": "ADV",
+              "head": 35,
+              "deprel": "advmod"
+            },
+            {
+              "text": "can",
+              "upos": "AUX",
+              "head": 35,
+              "deprel": "aux"
+            },
+            {
+              "text": "feeling",
+              "upos": "VERB",
+              "head": 35,
+              "deprel": "csubj"
+            },
+            {
+              "text": "under",
+              "upos": "ADP",
+              "head": 31,
+              "deprel": "case"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 31,
+              "deprel": "det"
+            },
+            {
+              "text": "weather",
+              "upos": "NOUN",
+              "head": 28,
+              "deprel": "obl"
+            },
+            {
+              "text": "be",
+              "upos": "AUX",
+              "head": 35,
+              "deprel": "cop"
+            },
+            {
+              "text": "a",
+              "upos": "DET",
+              "head": 35,
+              "deprel": "det"
+            },
+            {
+              "text": "bad",
+              "upos": "ADJ",
+              "head": 35,
+              "deprel": "amod"
+            },
+            {
+              "text": "thing",
+              "upos": "NOUN",
+              "head": 5,
+              "deprel": "conj"
+            },
+            {
+              "text": "but",
+              "upos": "CCONJ",
+              "head": 43,
+              "deprel": "cc"
+            },
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 43,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "is",
+              "upos": "AUX",
+              "head": 43,
+              "deprel": "cop"
+            },
+            {
+              "text": "a",
+              "upos": "DET",
+              "head": 40,
+              "deprel": "det"
+            },
+            {
+              "text": "little",
+              "upos": "ADJ",
+              "head": 43,
+              "deprel": "obl:unmarked"
+            },
+            {
+              "text": "under",
+              "upos": "ADP",
+              "head": 43,
+              "deprel": "case"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 43,
+              "deprel": "det"
+            },
+            {
+              "text": "weather",
+              "upos": "NOUN",
+              "head": 35,
+              "deprel": "conj"
+            },
+            {
+              "text": "this",
+              "upos": "DET",
+              "head": 45,
+              "deprel": "det"
+            },
+            {
+              "text": "morning",
+              "upos": "NOUN",
+              "head": 46,
+              "deprel": "obl:unmarked"
+            },
+            {
+              "text": "Let",
+              "upos": "VERB",
+              "head": 43,
+              "deprel": "parataxis"
+            },
+            {
+              "text": "'s",
+              "upos": "PRON",
+              "head": 46,
+              "deprel": "obj"
+            },
+            {
+              "text": "play",
+              "upos": "VERB",
+              "head": 46,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "by",
+              "upos": "ADP",
+              "head": 50,
+              "deprel": "case"
+            },
+            {
+              "text": "ear",
+              "upos": "NOUN",
+              "head": 48,
+              "deprel": "obl"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 5,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "start": 1014.743,
+      "end": 1016.825,
+      "duration": 2.082,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Hey guys, welcome to Lingua Marina.",
+      "parsed_sentences": [
+        {
+          "text": "Hey guys, welcome to Lingua Marina.",
+          "tokens": [
+            {
+              "text": "Hey",
+              "upos": "INTJ",
+              "head": 4,
+              "deprel": "discourse"
+            },
+            {
+              "text": "guys",
+              "upos": "NOUN",
+              "head": 4,
+              "deprel": "vocative"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            },
+            {
+              "text": "welcome",
+              "upos": "INTJ",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "to",
+              "upos": "ADP",
+              "head": 7,
+              "deprel": "case"
+            },
+            {
+              "text": "Lingua",
+              "upos": "PROPN",
+              "head": 7,
+              "deprel": "compound"
+            },
+            {
+              "text": "Marina",
+              "upos": "PROPN",
+              "head": 4,
+              "deprel": "obl"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 4,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "start": 1038.145,
+      "end": 1043.529,
+      "duration": 5.384,
+      "word_count": 18,
+      "issues": [
+        "starts_with_dependent_cconj"
+      ],
+      "text": "and relax your thoughts, because Americans like to omit words, they just throw them away from the phrase.",
+      "parsed_sentences": [
+        {
+          "text": "and relax your thoughts, because Americans like to omit words, they just throw them away from the phrase.",
+          "tokens": [
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 2,
+              "deprel": "cc"
+            },
+            {
+              "text": "relax",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "your",
+              "upos": "PRON",
+              "head": 4,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "thoughts",
+              "upos": "NOUN",
+              "head": 2,
+              "deprel": "obj"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 15,
+              "deprel": "punct"
+            },
+            {
+              "text": "because",
+              "upos": "SCONJ",
+              "head": 8,
+              "deprel": "mark"
+            },
+            {
+              "text": "Americans",
+              "upos": "PROPN",
+              "head": 8,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "like",
+              "upos": "VERB",
+              "head": 15,
+              "deprel": "advcl"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 10,
+              "deprel": "mark"
+            },
+            {
+              "text": "omit",
+              "upos": "VERB",
+              "head": 8,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "words",
+              "upos": "NOUN",
+              "head": 10,
+              "deprel": "obj"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 8,
+              "deprel": "punct"
+            },
+            {
+              "text": "they",
+              "upos": "PRON",
+              "head": 15,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "just",
+              "upos": "ADV",
+              "head": 15,
+              "deprel": "advmod"
+            },
+            {
+              "text": "throw",
+              "upos": "VERB",
+              "head": 2,
+              "deprel": "parataxis"
+            },
+            {
+              "text": "them",
+              "upos": "PRON",
+              "head": 15,
+              "deprel": "obj"
+            },
+            {
+              "text": "away",
+              "upos": "ADV",
+              "head": 15,
+              "deprel": "advmod"
+            },
+            {
+              "text": "from",
+              "upos": "ADP",
+              "head": 20,
+              "deprel": "case"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 20,
+              "deprel": "det"
+            },
+            {
+              "text": "phrase",
+              "upos": "NOUN",
+              "head": 15,
+              "deprel": "obl"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "start": 1209.213,
+      "end": 1210.614,
+      "duration": 1.401,
+      "word_count": 4,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Amma fan of baseball.",
+      "parsed_sentences": [
+        {
+          "text": "Amma fan of baseball.",
+          "tokens": [
+            {
+              "text": "Amma",
+              "upos": "PROPN",
+              "head": 2,
+              "deprel": "compound"
+            },
+            {
+              "text": "fan",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "of",
+              "upos": "ADP",
+              "head": 4,
+              "deprel": "case"
+            },
+            {
+              "text": "baseball",
+              "upos": "NOUN",
+              "head": 2,
+              "deprel": "nmod"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "start": 1281.361,
+      "end": 1287.423,
+      "duration": 6.062,
+      "word_count": 12,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Some other examples of people contracting words saying congrats instead of congratulations.",
+      "parsed_sentences": [
+        {
+          "text": "Some other examples of people contracting words saying congrats instead of congratulations.",
+          "tokens": [
+            {
+              "text": "Some",
+              "upos": "DET",
+              "head": 3,
+              "deprel": "det"
+            },
+            {
+              "text": "other",
+              "upos": "ADJ",
+              "head": 3,
+              "deprel": "amod"
+            },
+            {
+              "text": "examples",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "of",
+              "upos": "ADP",
+              "head": 5,
+              "deprel": "case"
+            },
+            {
+              "text": "people",
+              "upos": "NOUN",
+              "head": 3,
+              "deprel": "nmod"
+            },
+            {
+              "text": "contracting",
+              "upos": "VERB",
+              "head": 5,
+              "deprel": "acl"
+            },
+            {
+              "text": "words",
+              "upos": "NOUN",
+              "head": 6,
+              "deprel": "obj"
+            },
+            {
+              "text": "saying",
+              "upos": "VERB",
+              "head": 7,
+              "deprel": "acl"
+            },
+            {
+              "text": "congrats",
+              "upos": "NOUN",
+              "head": 8,
+              "deprel": "obj"
+            },
+            {
+              "text": "instead",
+              "upos": "ADV",
+              "head": 12,
+              "deprel": "case"
+            },
+            {
+              "text": "of",
+              "upos": "ADP",
+              "head": 10,
+              "deprel": "fixed"
+            },
+            {
+              "text": "congratulations",
+              "upos": "NOUN",
+              "head": 8,
+              "deprel": "obl"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "start": 1287.883,
+      "end": 1289.344,
+      "duration": 1.461,
+      "word_count": 4,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Congrats on your birthday.",
+      "parsed_sentences": [
+        {
+          "text": "Congrats on your birthday.",
+          "tokens": [
+            {
+              "text": "Congrats",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "on",
+              "upos": "ADP",
+              "head": 4,
+              "deprel": "case"
+            },
+            {
+              "text": "your",
+              "upos": "PRON",
+              "head": 4,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "birthday",
+              "upos": "NOUN",
+              "head": 1,
+              "deprel": "nmod"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "start": 1289.964,
+      "end": 1291.925,
+      "duration": 1.961,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Instead of congratulations on your birthday.",
+      "parsed_sentences": [
+        {
+          "text": "Instead of congratulations on your birthday.",
+          "tokens": [
+            {
+              "text": "Instead",
+              "upos": "ADV",
+              "head": 3,
+              "deprel": "case"
+            },
+            {
+              "text": "of",
+              "upos": "ADP",
+              "head": 1,
+              "deprel": "fixed"
+            },
+            {
+              "text": "congratulations",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "on",
+              "upos": "ADP",
+              "head": 6,
+              "deprel": "case"
+            },
+            {
+              "text": "your",
+              "upos": "PRON",
+              "head": 6,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "birthday",
+              "upos": "NOUN",
+              "head": 3,
+              "deprel": "nmod"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "start": 1292.225,
+      "end": 1293.886,
+      "duration": 1.661,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Congrats on your new apartment. Totes.",
+      "parsed_sentences": [
+        {
+          "text": "Congrats on your new apartment.",
+          "tokens": [
+            {
+              "text": "Congrats",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "on",
+              "upos": "ADP",
+              "head": 5,
+              "deprel": "case"
+            },
+            {
+              "text": "your",
+              "upos": "PRON",
+              "head": 5,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "new",
+              "upos": "ADJ",
+              "head": 5,
+              "deprel": "amod"
+            },
+            {
+              "text": "apartment",
+              "upos": "NOUN",
+              "head": 1,
+              "deprel": "nmod"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        },
+        {
+          "text": "Totes.",
+          "tokens": [
+            {
+              "text": "Totes",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "start": 1623.326,
+      "end": 1625.327,
+      "duration": 2.001,
+      "word_count": 3,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "their pronunciation changes.",
+      "parsed_sentences": [
+        {
+          "text": "their pronunciation changes.",
+          "tokens": [
+            {
+              "text": "their",
+              "upos": "PRON",
+              "head": 3,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "pronunciation",
+              "upos": "NOUN",
+              "head": 3,
+              "deprel": "compound"
+            },
+            {
+              "text": "changes",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 382,
+      "start": 1649.621,
+      "end": 1664.456,
+      "duration": 14.835,
+      "word_count": 38,
+      "issues": [
+        "starts_with_adp"
+      ],
+      "text": "in american english people tend to avoid non-essential words by making them weak and by that i mean that there is no stress on those words when people talk let me give you some examples so for example",
+      "parsed_sentences": [
+        {
+          "text": "in american english people tend to avoid non-essential words by making them weak and by that i mean that there is no stress on those words when people talk let me give you some examples so for example",
+          "tokens": [
+            {
+              "text": "in",
+              "upos": "ADP",
+              "head": 4,
+              "deprel": "case"
+            },
+            {
+              "text": "american",
+              "upos": "ADJ",
+              "head": 4,
+              "deprel": "amod"
+            },
+            {
+              "text": "english",
+              "upos": "ADJ",
+              "head": 4,
+              "deprel": "amod"
+            },
+            {
+              "text": "people",
+              "upos": "NOUN",
+              "head": 5,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "tend",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 7,
+              "deprel": "mark"
+            },
+            {
+              "text": "avoid",
+              "upos": "VERB",
+              "head": 5,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "non-essential",
+              "upos": "ADJ",
+              "head": 9,
+              "deprel": "amod"
+            },
+            {
+              "text": "words",
+              "upos": "NOUN",
+              "head": 7,
+              "deprel": "obj"
+            },
+            {
+              "text": "by",
+              "upos": "SCONJ",
+              "head": 11,
+              "deprel": "mark"
+            },
+            {
+              "text": "making",
+              "upos": "VERB",
+              "head": 7,
+              "deprel": "advcl"
+            },
+            {
+              "text": "them",
+              "upos": "PRON",
+              "head": 11,
+              "deprel": "obj"
+            },
+            {
+              "text": "weak",
+              "upos": "ADJ",
+              "head": 11,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 18,
+              "deprel": "cc"
+            },
+            {
+              "text": "by",
+              "upos": "ADP",
+              "head": 16,
+              "deprel": "case"
+            },
+            {
+              "text": "that",
+              "upos": "SCONJ",
+              "head": 18,
+              "deprel": "mark"
+            },
+            {
+              "text": "i",
+              "upos": "PRON",
+              "head": 18,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "mean",
+              "upos": "VERB",
+              "head": 5,
+              "deprel": "conj"
+            },
+            {
+              "text": "that",
+              "upos": "SCONJ",
+              "head": 21,
+              "deprel": "mark"
+            },
+            {
+              "text": "there",
+              "upos": "PRON",
+              "head": 21,
+              "deprel": "expl"
+            },
+            {
+              "text": "is",
+              "upos": "VERB",
+              "head": 18,
+              "deprel": "ccomp"
+            },
+            {
+              "text": "no",
+              "upos": "DET",
+              "head": 23,
+              "deprel": "det"
+            },
+            {
+              "text": "stress",
+              "upos": "NOUN",
+              "head": 21,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "on",
+              "upos": "ADP",
+              "head": 26,
+              "deprel": "case"
+            },
+            {
+              "text": "those",
+              "upos": "DET",
+              "head": 26,
+              "deprel": "det"
+            },
+            {
+              "text": "words",
+              "upos": "NOUN",
+              "head": 23,
+              "deprel": "nmod"
+            },
+            {
+              "text": "when",
+              "upos": "ADV",
+              "head": 29,
+              "deprel": "advmod"
+            },
+            {
+              "text": "people",
+              "upos": "NOUN",
+              "head": 29,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "talk",
+              "upos": "VERB",
+              "head": 21,
+              "deprel": "advcl"
+            },
+            {
+              "text": "let",
+              "upos": "VERB",
+              "head": 29,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "me",
+              "upos": "PRON",
+              "head": 30,
+              "deprel": "obj"
+            },
+            {
+              "text": "give",
+              "upos": "VERB",
+              "head": 30,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 32,
+              "deprel": "iobj"
+            },
+            {
+              "text": "some",
+              "upos": "DET",
+              "head": 35,
+              "deprel": "det"
+            },
+            {
+              "text": "examples",
+              "upos": "NOUN",
+              "head": 32,
+              "deprel": "obj"
+            },
+            {
+              "text": "so",
+              "upos": "ADV",
+              "head": 38,
+              "deprel": "advmod"
+            },
+            {
+              "text": "for",
+              "upos": "ADP",
+              "head": 38,
+              "deprel": "case"
+            },
+            {
+              "text": "example",
+              "upos": "NOUN",
+              "head": 32,
+              "deprel": "obl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "start": 1700.922,
+      "end": 1706.206,
+      "duration": 5.284,
+      "word_count": 15,
+      "issues": [
+        "starts_with_dependent_sconj"
+      ],
+      "text": "so that you don't spend your energy, you don't waste your energy in emphasizing them.",
+      "parsed_sentences": [
+        {
+          "text": "so that you don't spend your energy, you don't waste your energy in emphasizing them.",
+          "tokens": [
+            {
+              "text": "so",
+              "upos": "SCONJ",
+              "head": 6,
+              "deprel": "mark"
+            },
+            {
+              "text": "that",
+              "upos": "SCONJ",
+              "head": 1,
+              "deprel": "fixed"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 6,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "do",
+              "upos": "AUX",
+              "head": 6,
+              "deprel": "aux"
+            },
+            {
+              "text": "n't",
+              "upos": "PART",
+              "head": 6,
+              "deprel": "advmod"
+            },
+            {
+              "text": "spend",
+              "upos": "VERB",
+              "head": 13,
+              "deprel": "advcl"
+            },
+            {
+              "text": "your",
+              "upos": "PRON",
+              "head": 8,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "energy",
+              "upos": "NOUN",
+              "head": 6,
+              "deprel": "obj"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 6,
+              "deprel": "punct"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 13,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "do",
+              "upos": "AUX",
+              "head": 13,
+              "deprel": "aux"
+            },
+            {
+              "text": "n't",
+              "upos": "PART",
+              "head": 13,
+              "deprel": "advmod"
+            },
+            {
+              "text": "waste",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "your",
+              "upos": "PRON",
+              "head": 15,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "energy",
+              "upos": "NOUN",
+              "head": 13,
+              "deprel": "obj"
+            },
+            {
+              "text": "in",
+              "upos": "SCONJ",
+              "head": 17,
+              "deprel": "mark"
+            },
+            {
+              "text": "emphasizing",
+              "upos": "VERB",
+              "head": 13,
+              "deprel": "advcl"
+            },
+            {
+              "text": "them",
+              "upos": "PRON",
+              "head": 17,
+              "deprel": "obj"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 13,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "start": 1815.324,
+      "end": 1816.384,
+      "duration": 1.06,
+      "word_count": 4,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "A very clear example.",
+      "parsed_sentences": [
+        {
+          "text": "A very clear example.",
+          "tokens": [
+            {
+              "text": "A",
+              "upos": "DET",
+              "head": 4,
+              "deprel": "det"
+            },
+            {
+              "text": "very",
+              "upos": "ADV",
+              "head": 3,
+              "deprel": "advmod"
+            },
+            {
+              "text": "clear",
+              "upos": "ADJ",
+              "head": 4,
+              "deprel": "amod"
+            },
+            {
+              "text": "example",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 4,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 422,
+      "start": 1816.905,
+      "end": 1819.007,
+      "duration": 2.102,
+      "word_count": 3,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Cats or dogs.",
+      "parsed_sentences": [
+        {
+          "text": "Cats or dogs.",
+          "tokens": [
+            {
+              "text": "Cats",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "or",
+              "upos": "CCONJ",
+              "head": 3,
+              "deprel": "cc"
+            },
+            {
+              "text": "dogs",
+              "upos": "NOUN",
+              "head": 1,
+              "deprel": "conj"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 425,
+      "start": 1825.872,
+      "end": 1827.934,
+      "duration": 2.062,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Ooh, cats or dogs? Uh, dogs.",
+      "parsed_sentences": [
+        {
+          "text": "Ooh, cats or dogs?",
+          "tokens": [
+            {
+              "text": "Ooh",
+              "upos": "INTJ",
+              "head": 3,
+              "deprel": "discourse"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            },
+            {
+              "text": "cats",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "or",
+              "upos": "CCONJ",
+              "head": 5,
+              "deprel": "cc"
+            },
+            {
+              "text": "dogs",
+              "upos": "NOUN",
+              "head": 3,
+              "deprel": "conj"
+            },
+            {
+              "text": "?",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        },
+        {
+          "text": "Uh, dogs.",
+          "tokens": [
+            {
+              "text": "Uh",
+              "upos": "INTJ",
+              "head": 3,
+              "deprel": "discourse"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            },
+            {
+              "text": "dogs",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "start": 1828.254,
+      "end": 1830.976,
+      "duration": 2.722,
+      "word_count": 4,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Another great example. Easy-beasy.",
+      "parsed_sentences": [
+        {
+          "text": "Another great example.",
+          "tokens": [
+            {
+              "text": "Another",
+              "upos": "DET",
+              "head": 3,
+              "deprel": "det"
+            },
+            {
+              "text": "great",
+              "upos": "ADJ",
+              "head": 3,
+              "deprel": "amod"
+            },
+            {
+              "text": "example",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        },
+        {
+          "text": "Easy-beasy.",
+          "tokens": [
+            {
+              "text": "Easy",
+              "upos": "ADJ",
+              "head": 3,
+              "deprel": "amod"
+            },
+            {
+              "text": "-",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            },
+            {
+              "text": "beasy",
+              "upos": "ADJ",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "start": 1857.505,
+      "end": 1863.708,
+      "duration": 6.203,
+      "word_count": 10,
+      "issues": [
+        "starts_with_adp"
+      ],
+      "text": "in america interview so t here just disappears That's it.",
+      "parsed_sentences": [
+        {
+          "text": "in america interview so t here just disappears",
+          "tokens": [
+            {
+              "text": "in",
+              "upos": "ADP",
+              "head": 3,
+              "deprel": "case"
+            },
+            {
+              "text": "america",
+              "upos": "PROPN",
+              "head": 3,
+              "deprel": "compound"
+            },
+            {
+              "text": "interview",
+              "upos": "NOUN",
+              "head": 8,
+              "deprel": "obl"
+            },
+            {
+              "text": "so",
+              "upos": "ADV",
+              "head": 8,
+              "deprel": "advmod"
+            },
+            {
+              "text": "t",
+              "upos": "NOUN",
+              "head": 8,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "here",
+              "upos": "ADV",
+              "head": 8,
+              "deprel": "advmod"
+            },
+            {
+              "text": "just",
+              "upos": "ADV",
+              "head": 8,
+              "deprel": "advmod"
+            },
+            {
+              "text": "disappears",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            }
+          ]
+        },
+        {
+          "text": "That's it.",
+          "tokens": [
+            {
+              "text": "That",
+              "upos": "PRON",
+              "head": 3,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "'s",
+              "upos": "AUX",
+              "head": 3,
+              "deprel": "cop"
+            },
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 3,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "start": 1870.99,
+      "end": 1875.231,
+      "duration": 4.241,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "No T at all. Same example.",
+      "parsed_sentences": [
+        {
+          "text": "No T at all.",
+          "tokens": [
+            {
+              "text": "No",
+              "upos": "DET",
+              "head": 2,
+              "deprel": "det"
+            },
+            {
+              "text": "T",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "at",
+              "upos": "ADP",
+              "head": 4,
+              "deprel": "case"
+            },
+            {
+              "text": "all",
+              "upos": "DET",
+              "head": 2,
+              "deprel": "nmod"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        },
+        {
+          "text": "Same example.",
+          "tokens": [
+            {
+              "text": "Same",
+              "upos": "ADJ",
+              "head": 2,
+              "deprel": "amod"
+            },
+            {
+              "text": "example",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "start": 1877.071,
+      "end": 1879.752,
+      "duration": 2.681,
+      "word_count": 3,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "American for center.",
+      "parsed_sentences": [
+        {
+          "text": "American for center.",
+          "tokens": [
+            {
+              "text": "American",
+              "upos": "ADJ",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "for",
+              "upos": "ADP",
+              "head": 3,
+              "deprel": "case"
+            },
+            {
+              "text": "center",
+              "upos": "NOUN",
+              "head": 1,
+              "deprel": "obl"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "start": 1902.094,
+      "end": 1914.76,
+      "duration": 12.666,
+      "word_count": 30,
+      "issues": [
+        "bad_ending_word"
+      ],
+      "text": "it is substituted by d and it's again called elision butter not butter but again if you want to sound more british butter is the pronunciation you would go for",
+      "parsed_sentences": [
+        {
+          "text": "it is substituted by d and it's again called elision butter not butter but again if you want to sound more british butter is the pronunciation you would go for",
+          "tokens": [
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 3,
+              "deprel": "nsubj:pass"
+            },
+            {
+              "text": "is",
+              "upos": "AUX",
+              "head": 3,
+              "deprel": "aux:pass"
+            },
+            {
+              "text": "substituted",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "by",
+              "upos": "ADP",
+              "head": 5,
+              "deprel": "case"
+            },
+            {
+              "text": "d",
+              "upos": "NOUN",
+              "head": 3,
+              "deprel": "obl:agent"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 10,
+              "deprel": "cc"
+            },
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 10,
+              "deprel": "nsubj:pass"
+            },
+            {
+              "text": "'s",
+              "upos": "AUX",
+              "head": 10,
+              "deprel": "aux:pass"
+            },
+            {
+              "text": "again",
+              "upos": "ADV",
+              "head": 10,
+              "deprel": "advmod"
+            },
+            {
+              "text": "called",
+              "upos": "VERB",
+              "head": 3,
+              "deprel": "conj"
+            },
+            {
+              "text": "elision",
+              "upos": "NOUN",
+              "head": 12,
+              "deprel": "compound"
+            },
+            {
+              "text": "butter",
+              "upos": "NOUN",
+              "head": 10,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "not",
+              "upos": "PART",
+              "head": 14,
+              "deprel": "advmod"
+            },
+            {
+              "text": "butter",
+              "upos": "NOUN",
+              "head": 10,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "but",
+              "upos": "CCONJ",
+              "head": 27,
+              "deprel": "cc"
+            },
+            {
+              "text": "again",
+              "upos": "ADV",
+              "head": 27,
+              "deprel": "advmod"
+            },
+            {
+              "text": "if",
+              "upos": "SCONJ",
+              "head": 19,
+              "deprel": "mark"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 19,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "want",
+              "upos": "VERB",
+              "head": 27,
+              "deprel": "advcl"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 21,
+              "deprel": "mark"
+            },
+            {
+              "text": "sound",
+              "upos": "VERB",
+              "head": 19,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "more",
+              "upos": "ADV",
+              "head": 23,
+              "deprel": "advmod"
+            },
+            {
+              "text": "british",
+              "upos": "ADJ",
+              "head": 24,
+              "deprel": "amod"
+            },
+            {
+              "text": "butter",
+              "upos": "NOUN",
+              "head": 21,
+              "deprel": "obj"
+            },
+            {
+              "text": "is",
+              "upos": "AUX",
+              "head": 27,
+              "deprel": "cop"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 27,
+              "deprel": "det"
+            },
+            {
+              "text": "pronunciation",
+              "upos": "NOUN",
+              "head": 3,
+              "deprel": "conj"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 30,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "would",
+              "upos": "AUX",
+              "head": 30,
+              "deprel": "aux"
+            },
+            {
+              "text": "go",
+              "upos": "VERB",
+              "head": 27,
+              "deprel": "acl:relcl"
+            },
+            {
+              "text": "for",
+              "upos": "ADP",
+              "head": 27,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "start": 1940.395,
+      "end": 1942.836,
+      "duration": 2.441,
+      "word_count": 6,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "And another great example, most common.",
+      "parsed_sentences": [
+        {
+          "text": "And another great example, most common.",
+          "tokens": [
+            {
+              "text": "And",
+              "upos": "CCONJ",
+              "head": 4,
+              "deprel": "cc"
+            },
+            {
+              "text": "another",
+              "upos": "DET",
+              "head": 4,
+              "deprel": "det"
+            },
+            {
+              "text": "great",
+              "upos": "ADJ",
+              "head": 4,
+              "deprel": "amod"
+            },
+            {
+              "text": "example",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 7,
+              "deprel": "punct"
+            },
+            {
+              "text": "most",
+              "upos": "ADV",
+              "head": 7,
+              "deprel": "advmod"
+            },
+            {
+              "text": "common",
+              "upos": "ADJ",
+              "head": 4,
+              "deprel": "parataxis"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 4,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "start": 1955.76,
+      "end": 1966.623,
+      "duration": 10.863,
+      "word_count": 42,
+      "issues": [
+        "starts_with_dependent_cconj"
+      ],
+      "text": "and you kind of have this in mind what you just learned when you have this in mind and you start noticing it it will become a lot easier for you to understand native speakers and once you start noticing those things",
+      "parsed_sentences": [
+        {
+          "text": "and you kind of have this in mind what you just learned when you have this in mind and you start noticing it it will become a lot easier for you to understand native speakers and once you start noticing those things",
+          "tokens": [
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 5,
+              "deprel": "cc"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 5,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "kind",
+              "upos": "NOUN",
+              "head": 5,
+              "deprel": "advmod"
+            },
+            {
+              "text": "of",
+              "upos": "ADP",
+              "head": 3,
+              "deprel": "fixed"
+            },
+            {
+              "text": "have",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "this",
+              "upos": "PRON",
+              "head": 5,
+              "deprel": "obj"
+            },
+            {
+              "text": "in",
+              "upos": "ADP",
+              "head": 8,
+              "deprel": "case"
+            },
+            {
+              "text": "mind",
+              "upos": "NOUN",
+              "head": 5,
+              "deprel": "obl"
+            },
+            {
+              "text": "what",
+              "upos": "PRON",
+              "head": 5,
+              "deprel": "obj"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 12,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "just",
+              "upos": "ADV",
+              "head": 12,
+              "deprel": "advmod"
+            },
+            {
+              "text": "learned",
+              "upos": "VERB",
+              "head": 9,
+              "deprel": "acl:relcl"
+            },
+            {
+              "text": "when",
+              "upos": "ADV",
+              "head": 15,
+              "deprel": "advmod"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 15,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "have",
+              "upos": "VERB",
+              "head": 12,
+              "deprel": "advcl"
+            },
+            {
+              "text": "this",
+              "upos": "PRON",
+              "head": 15,
+              "deprel": "obj"
+            },
+            {
+              "text": "in",
+              "upos": "ADP",
+              "head": 18,
+              "deprel": "case"
+            },
+            {
+              "text": "mind",
+              "upos": "NOUN",
+              "head": 15,
+              "deprel": "obl"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 21,
+              "deprel": "cc"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 21,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "start",
+              "upos": "VERB",
+              "head": 5,
+              "deprel": "conj"
+            },
+            {
+              "text": "noticing",
+              "upos": "VERB",
+              "head": 21,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 22,
+              "deprel": "obj"
+            },
+            {
+              "text": "it",
+              "upos": "PRON",
+              "head": 26,
+              "deprel": "expl"
+            },
+            {
+              "text": "will",
+              "upos": "AUX",
+              "head": 26,
+              "deprel": "aux"
+            },
+            {
+              "text": "become",
+              "upos": "VERB",
+              "head": 21,
+              "deprel": "ccomp"
+            },
+            {
+              "text": "a",
+              "upos": "DET",
+              "head": 28,
+              "deprel": "det"
+            },
+            {
+              "text": "lot",
+              "upos": "NOUN",
+              "head": 29,
+              "deprel": "obl:unmarked"
+            },
+            {
+              "text": "easier",
+              "upos": "ADJ",
+              "head": 26,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "for",
+              "upos": "SCONJ",
+              "head": 33,
+              "deprel": "mark"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 33,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 33,
+              "deprel": "mark"
+            },
+            {
+              "text": "understand",
+              "upos": "VERB",
+              "head": 29,
+              "deprel": "advcl"
+            },
+            {
+              "text": "native",
+              "upos": "ADJ",
+              "head": 35,
+              "deprel": "amod"
+            },
+            {
+              "text": "speakers",
+              "upos": "NOUN",
+              "head": 33,
+              "deprel": "obj"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 39,
+              "deprel": "cc"
+            },
+            {
+              "text": "once",
+              "upos": "SCONJ",
+              "head": 39,
+              "deprel": "mark"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 39,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "start",
+              "upos": "VERB",
+              "head": 26,
+              "deprel": "conj"
+            },
+            {
+              "text": "noticing",
+              "upos": "VERB",
+              "head": 39,
+              "deprel": "xcomp"
+            },
+            {
+              "text": "those",
+              "upos": "DET",
+              "head": 42,
+              "deprel": "det"
+            },
+            {
+              "text": "things",
+              "upos": "NOUN",
+              "head": 40,
+              "deprel": "obj"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "start": 2015.619,
+      "end": 2016.539,
+      "duration": 0.92,
+      "word_count": 4,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "you know, common thing.",
+      "parsed_sentences": [
+        {
+          "text": "you know, common thing.",
+          "tokens": [
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 2,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "know",
+              "upos": "VERB",
+              "head": 5,
+              "deprel": "parataxis"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            },
+            {
+              "text": "common",
+              "upos": "ADJ",
+              "head": 5,
+              "deprel": "amod"
+            },
+            {
+              "text": "thing",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 5,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "start": 2023.023,
+      "end": 2024.564,
+      "duration": 1.541,
+      "word_count": 5,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "The same with meet you.",
+      "parsed_sentences": [
+        {
+          "text": "The same with meet you.",
+          "tokens": [
+            {
+              "text": "The",
+              "upos": "DET",
+              "head": 2,
+              "deprel": "det"
+            },
+            {
+              "text": "same",
+              "upos": "ADJ",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "with",
+              "upos": "ADP",
+              "head": 4,
+              "deprel": "mark"
+            },
+            {
+              "text": "meet",
+              "upos": "VERB",
+              "head": 2,
+              "deprel": "acl"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 4,
+              "deprel": "obj"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 2,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "start": 2049.829,
+      "end": 2052.849,
+      "duration": 3.02,
+      "word_count": 8,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "Again, this new sound between the two words.",
+      "parsed_sentences": [
+        {
+          "text": "Again, this new sound between the two words.",
+          "tokens": [
+            {
+              "text": "Again",
+              "upos": "ADV",
+              "head": 5,
+              "deprel": "advmod"
+            },
+            {
+              "text": ",",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            },
+            {
+              "text": "this",
+              "upos": "DET",
+              "head": 5,
+              "deprel": "det"
+            },
+            {
+              "text": "new",
+              "upos": "ADJ",
+              "head": 5,
+              "deprel": "amod"
+            },
+            {
+              "text": "sound",
+              "upos": "NOUN",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "between",
+              "upos": "ADP",
+              "head": 9,
+              "deprel": "case"
+            },
+            {
+              "text": "the",
+              "upos": "DET",
+              "head": 9,
+              "deprel": "det"
+            },
+            {
+              "text": "two",
+              "upos": "NUM",
+              "head": 9,
+              "deprel": "nummod"
+            },
+            {
+              "text": "words",
+              "upos": "NOUN",
+              "head": 5,
+              "deprel": "nmod"
+            },
+            {
+              "text": ".",
+              "upos": "PUNCT",
+              "head": 5,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "start": 2114.088,
+      "end": 2115.129,
+      "duration": 1.041,
+      "word_count": 5,
+      "issues": [
+        "sentence_without_predicate"
+      ],
+      "text": "What about your social life?",
+      "parsed_sentences": [
+        {
+          "text": "What about your social life?",
+          "tokens": [
+            {
+              "text": "What",
+              "upos": "PRON",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "about",
+              "upos": "ADP",
+              "head": 5,
+              "deprel": "case"
+            },
+            {
+              "text": "your",
+              "upos": "PRON",
+              "head": 5,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "social",
+              "upos": "ADJ",
+              "head": 5,
+              "deprel": "amod"
+            },
+            {
+              "text": "life",
+              "upos": "NOUN",
+              "head": 1,
+              "deprel": "obl"
+            },
+            {
+              "text": "?",
+              "upos": "PUNCT",
+              "head": 1,
+              "deprel": "punct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "start": 2177.177,
+      "end": 2184.92,
+      "duration": 7.743,
+      "word_count": 28,
+      "issues": [
+        "starts_with_dependent_sconj"
+      ],
+      "text": "in order to not miss my next videos and i will see you very soon on this channel and on my instagram lingua marina thank you and bye",
+      "parsed_sentences": [
+        {
+          "text": "in order to not miss my next videos and i will see you very soon on this channel and on my instagram lingua marina thank you and bye",
+          "tokens": [
+            {
+              "text": "in",
+              "upos": "SCONJ",
+              "head": 5,
+              "deprel": "mark"
+            },
+            {
+              "text": "order",
+              "upos": "NOUN",
+              "head": 1,
+              "deprel": "fixed"
+            },
+            {
+              "text": "to",
+              "upos": "PART",
+              "head": 5,
+              "deprel": "mark"
+            },
+            {
+              "text": "not",
+              "upos": "PART",
+              "head": 5,
+              "deprel": "advmod"
+            },
+            {
+              "text": "miss",
+              "upos": "VERB",
+              "head": 0,
+              "deprel": "root"
+            },
+            {
+              "text": "my",
+              "upos": "PRON",
+              "head": 8,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "next",
+              "upos": "ADJ",
+              "head": 8,
+              "deprel": "amod"
+            },
+            {
+              "text": "videos",
+              "upos": "NOUN",
+              "head": 5,
+              "deprel": "obj"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 12,
+              "deprel": "cc"
+            },
+            {
+              "text": "i",
+              "upos": "PRON",
+              "head": 12,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "will",
+              "upos": "AUX",
+              "head": 12,
+              "deprel": "aux"
+            },
+            {
+              "text": "see",
+              "upos": "VERB",
+              "head": 5,
+              "deprel": "conj"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 12,
+              "deprel": "obj"
+            },
+            {
+              "text": "very",
+              "upos": "ADV",
+              "head": 15,
+              "deprel": "advmod"
+            },
+            {
+              "text": "soon",
+              "upos": "ADV",
+              "head": 12,
+              "deprel": "advmod"
+            },
+            {
+              "text": "on",
+              "upos": "ADP",
+              "head": 18,
+              "deprel": "case"
+            },
+            {
+              "text": "this",
+              "upos": "DET",
+              "head": 18,
+              "deprel": "det"
+            },
+            {
+              "text": "channel",
+              "upos": "NOUN",
+              "head": 12,
+              "deprel": "obl"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 25,
+              "deprel": "cc"
+            },
+            {
+              "text": "on",
+              "upos": "ADP",
+              "head": 24,
+              "deprel": "case"
+            },
+            {
+              "text": "my",
+              "upos": "PRON",
+              "head": 24,
+              "deprel": "nmod:poss"
+            },
+            {
+              "text": "instagram",
+              "upos": "NOUN",
+              "head": 24,
+              "deprel": "compound"
+            },
+            {
+              "text": "lingua",
+              "upos": "NOUN",
+              "head": 24,
+              "deprel": "compound"
+            },
+            {
+              "text": "marina",
+              "upos": "NOUN",
+              "head": 25,
+              "deprel": "nsubj"
+            },
+            {
+              "text": "thank",
+              "upos": "VERB",
+              "head": 12,
+              "deprel": "conj"
+            },
+            {
+              "text": "you",
+              "upos": "PRON",
+              "head": 25,
+              "deprel": "obj"
+            },
+            {
+              "text": "and",
+              "upos": "CCONJ",
+              "head": 28,
+              "deprel": "cc"
+            },
+            {
+              "text": "bye",
+              "upos": "INTJ",
+              "head": 25,
+              "deprel": "conj"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

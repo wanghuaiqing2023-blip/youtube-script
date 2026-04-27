@@ -1,0 +1,153 @@
+{
+  "input": "transcribe-whisperx_result.json",
+  "strategy": "stanza_sentence_ranges_plus_coarse_repairs",
+  "summary": {
+    "range_count": 402,
+    "word_count": 6239,
+    "covered_word_count": 6239,
+    "starts_at_zero": true,
+    "ends_at_word_count": true,
+    "has_overlap": false,
+    "has_gap": false,
+    "overlap_count": 0,
+    "gap_count": 0,
+    "max_words": 195,
+    "max_duration": 54.19200000000001,
+    "overlaps": [],
+    "gaps": []
+  },
+  "preview": [
+    {
+      "id": 1,
+      "start_word_index": 0,
+      "end_word_index": 19,
+      "word_count": 20,
+      "start": 0.331,
+      "end": 6.055,
+      "duration": 5.724,
+      "reason": "stanza_sentence",
+      "text": "I know the video is called how to speak English fast, but do you really need to speak English fast?"
+    },
+    {
+      "id": 2,
+      "start_word_index": 20,
+      "end_word_index": 24,
+      "word_count": 5,
+      "start": 6.275,
+      "end": 7.316,
+      "duration": 1.041,
+      "reason": "stanza_sentence",
+      "text": "Let me tell you something."
+    },
+    {
+      "id": 3,
+      "start_word_index": 25,
+      "end_word_index": 40,
+      "word_count": 16,
+      "start": 7.496,
+      "end": 12.799,
+      "duration": 5.303,
+      "reason": "stanza_sentence",
+      "text": "Sometimes we think that native speakers speak fast and this is why they sound so natural."
+    },
+    {
+      "id": 4,
+      "start_word_index": 41,
+      "end_word_index": 46,
+      "word_count": 6,
+      "start": 13.119,
+      "end": 15.601,
+      "duration": 2.482,
+      "reason": "stanza_sentence",
+      "text": "In reality, they don't speak fast."
+    },
+    {
+      "id": 5,
+      "start_word_index": 47,
+      "end_word_index": 53,
+      "word_count": 7,
+      "start": 16.101,
+      "end": 19.404,
+      "duration": 3.303,
+      "reason": "stanza_sentence",
+      "text": "They just connect all the words together."
+    },
+    {
+      "id": 6,
+      "start_word_index": 54,
+      "end_word_index": 98,
+      "word_count": 45,
+      "start": 19.764,
+      "end": 35.654,
+      "duration": 15.89,
+      "reason": "stanza_sentence",
+      "text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "id": 7,
+      "start_word_index": 99,
+      "end_word_index": 123,
+      "word_count": 25,
+      "start": 36.015,
+      "end": 44.28,
+      "duration": 8.265,
+      "reason": "stanza_sentence",
+      "text": "And sometimes, it's hard for us to understand them just because they don't split up words, and we think that they're just speaking too fast."
+    },
+    {
+      "id": 8,
+      "start_word_index": 124,
+      "end_word_index": 134,
+      "word_count": 11,
+      "start": 44.52,
+      "end": 48.323,
+      "duration": 3.803,
+      "reason": "stanza_sentence+merged_stanza_sentence",
+      "text": "In reality, they're not. Today, I'm gonna teach you this technique."
+    },
+    {
+      "id": 9,
+      "start_word_index": 135,
+      "end_word_index": 170,
+      "word_count": 36,
+      "start": 48.723,
+      "end": 62.208,
+      "duration": 13.485,
+      "reason": "stanza_sentence",
+      "text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "id": 10,
+      "start_word_index": 171,
+      "end_word_index": 179,
+      "word_count": 9,
+      "start": 62.529,
+      "end": 65.37,
+      "duration": 2.841,
+      "reason": "stanza_sentence",
+      "text": "For example, you see a phrase, what do you?"
+    },
+    {
+      "id": 11,
+      "start_word_index": 180,
+      "end_word_index": 221,
+      "word_count": 42,
+      "start": 65.89,
+      "end": 79.69,
+      "duration": 13.8,
+      "reason": "stanza_sentence+merged_stanza_sentence+merged_stanza_sentence+merged_stanza_sentence+merged_stanza_sentence",
+      "text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "id": 12,
+      "start_word_index": 222,
+      "end_word_index": 225,
+      "word_count": 4,
+      "start": 79.891,
+      "end": 81.752,
+      "duration": 1.861,
+      "reason": "stanza_sentence",
+      "text": "It's just connecting everything."
+    }
+  ]
+}
