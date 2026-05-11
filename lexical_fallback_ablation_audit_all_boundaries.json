@@ -1,0 +1,2346 @@
+{
+  "metadata": {
+    "source": "coarse_blocks_pure_grammar.json",
+    "input_collection": "blocks",
+    "mode": "all_boundaries",
+    "max_boundary_cost": 450.0,
+    "split_word_threshold": 30,
+    "split_duration_threshold": 14.0
+  },
+  "totals": {
+    "audited_units": 45,
+    "raw_candidate_boundaries": 2380,
+    "parser_only_safe_boundaries": 723,
+    "risky_still_allowed": 327,
+    "hard_fallback_blocked": 336,
+    "soft_fallback_blocked": 40,
+    "clean_parser_only_safe": 20
+  },
+  "label_counts": {
+    "soft:right_lowercase_without_final_punctuation": 683,
+    "hard:left_connector:and": 76,
+    "soft:left_bad_end:and": 76,
+    "soft:right_bad_start:to": 38,
+    "hard:right_dependent_clause_start:if": 25,
+    "soft:right_bad_start:if": 25,
+    "hard:right_dependent_clause_start:because": 20,
+    "soft:right_bad_start:because": 20,
+    "hard:left_connector:but": 19,
+    "soft:left_bad_end:but": 19,
+    "hard:right_dependent_clause_start:that": 17,
+    "soft:right_bad_start:that": 17,
+    "hard:right_determiner_start:the": 15,
+    "soft:right_bad_start:the": 15,
+    "hard:left_strong_bad_end:do": 13,
+    "hard:left_connector:so": 13,
+    "soft:left_bad_end:so": 13,
+    "hard:right_aux_modal_negator_start:is": 13,
+    "soft:right_bad_start:is": 13,
+    "hard:right_dependent_clause_start:when": 12,
+    "soft:right_bad_start:when": 12,
+    "hard:left_connector:when": 12,
+    "soft:left_bad_end:when": 12,
+    "hard:left_connector:or": 11,
+    "hard:right_determiner_start:a": 11,
+    "soft:left_bad_end:or": 11,
+    "soft:right_bad_start:a": 11,
+    "soft:right_bad_start:of": 10,
+    "hard:right_aux_modal_negator_start:do": 8,
+    "soft:right_bad_start:do": 8,
+    "soft:right_bad_start:in": 8,
+    "soft:left_bad_end:what": 7,
+    "hard:right_aux_modal_negator_start:can": 7,
+    "soft:right_bad_start:can": 7,
+    "soft:right_bad_start:for": 7,
+    "hard:left_connector:that": 7,
+    "soft:left_bad_end:that": 7,
+    "hard:right_aux_modal_negator_start:would": 6,
+    "soft:right_bad_start:would": 6,
+    "hard:right_aux_modal_negator_start:don't": 5,
+    "soft:right_bad_start:don't": 5,
+    "hard:right_determiner_start:your": 5,
+    "soft:right_bad_start:your": 5,
+    "soft:right_object_pronoun_start:it": 4,
+    "soft:left_bad_end:this": 4,
+    "hard:left_strong_bad_end:out": 4,
+    "soft:right_bad_start:from": 4,
+    "hard:right_dependent_clause_start:than": 4,
+    "soft:right_bad_start:than": 4,
+    "hard:right_dependent_clause_start:which": 3,
+    "soft:right_bad_start:which": 3,
+    "hard:left_connector:why": 3,
+    "soft:left_bad_end:why": 3,
+    "soft:right_bad_start:like": 3,
+    "hard:subject_pronoun_split:you_can": 3,
+    "hard:left_strong_bad_end:is": 3,
+    "soft:right_bad_start:on": 3,
+    "hard:left_strong_bad_end:on": 3,
+    "hard:left_strong_bad_end:up": 2,
+    "soft:left_bad_end:all": 2,
+    "hard:right_dependent_clause_start:as": 2,
+    "soft:right_bad_start:as": 2,
+    "hard:left_hanging_temporal_starter": 2,
+    "hard:right_aux_modal_negator_start:will": 2,
+    "soft:right_bad_start:will": 2,
+    "hard:right_dependent_clause_start:who": 2,
+    "soft:right_bad_start:who": 2,
+    "hard:left_strong_bad_end:below": 2,
+    "hard:subject_pronoun_split:it_and": 2,
+    "soft:right_bad_start:out": 2,
+    "hard:right_aux_modal_negator_start:are": 2,
+    "soft:right_bad_start:are": 2,
+    "hard:subject_pronoun_split:you_and": 2,
+    "hard:left_strong_bad_end:like": 2,
+    "soft:right_bad_start:by": 2,
+    "hard:left_strong_bad_end:can": 2,
+    "hard:subject_pronoun_split:you_would": 2,
+    "hard:left_connector:where": 2,
+    "soft:left_bad_end:where": 2,
+    "soft:right_bad_start:up": 1,
+    "hard:subject_pronoun_split:they_emit": 1,
+    "hard:subject_pronoun_split:they_add": 1,
+    "hard:subject_pronoun_split:you_how": 1,
+    "hard:subject_pronoun_split:it_so": 1,
+    "hard:subject_pronoun_split:it_to": 1,
+    "hard:subject_pronoun_split:it_like": 1,
+    "hard:subject_pronoun_split:they_would": 1,
+    "soft:right_bad_start:at": 1,
+    "hard:subject_pronoun_split:we_kind": 1,
+    "hard:subject_pronoun_split:i_would": 1,
+    "hard:subject_pronoun_split:it_as": 1,
+    "hard:right_aux_modal_negator_start:am": 1,
+    "hard:subject_pronoun_split:i_am": 1,
+    "soft:right_bad_start:am": 1,
+    "hard:subject_pronoun_split:i_don't": 1,
+    "hard:subject_pronoun_split:it_but": 1,
+    "soft:left_bad_end:more": 1,
+    "hard:right_determiner_start:their": 1,
+    "soft:right_bad_start:their": 1,
+    "hard:right_aux_modal_negator_start:was": 1,
+    "soft:right_bad_start:was": 1,
+    "hard:left_strong_bad_end:has": 1,
+    "hard:left_strong_bad_end:of": 1,
+    "hard:left_strong_bad_end:at": 1,
+    "hard:subject_pronoun_split:they_either": 1,
+    "soft:left_bad_end:either": 1,
+    "hard:right_aux_modal_negator_start:not": 1,
+    "soft:right_bad_start:not": 1,
+    "hard:left_strong_bad_end:not": 1,
+    "hard:subject_pronoun_split:it_out": 1,
+    "soft:right_bad_start:outside": 1,
+    "hard:left_strong_bad_end:outside": 1,
+    "soft:right_bad_start:about": 1,
+    "hard:subject_pronoun_split:you_in": 1,
+    "hard:right_determiner_start:my": 1,
+    "soft:right_bad_start:my": 1,
+    "hard:subject_pronoun_split:you_they": 1,
+    "hard:subject_pronoun_split:they_don't": 1,
+    "soft:right_bad_start:with": 1,
+    "hard:left_connector:while": 1,
+    "soft:left_bad_end:while": 1,
+    "hard:right_aux_modal_negator_start:could": 1,
+    "soft:right_bad_start:could": 1,
+    "hard:left_strong_bad_end:was": 1,
+    "hard:subject_pronoun_split:i_can": 1,
+    "hard:subject_pronoun_split:it_if": 1,
+    "hard:right_dependent_clause_start:where": 1,
+    "soft:right_bad_start:where": 1,
+    "hard:subject_pronoun_split:you_kind": 1,
+    "hard:subject_pronoun_split:it_will": 1,
+    "hard:right_dependent_clause_start:once": 1,
+    "soft:right_bad_start:once": 1,
+    "hard:right_aux_modal_negator_start:won't": 1,
+    "hard:subject_pronoun_split:you_won't": 1,
+    "soft:right_bad_start:won't": 1,
+    "hard:subject_pronoun_split:it_sounds": 1,
+    "hard:right_aux_modal_negator_start:have": 1,
+    "hard:subject_pronoun_split:we_have": 1,
+    "soft:right_bad_start:have": 1,
+    "hard:left_strong_bad_end:have": 1,
+    "hard:subject_pronoun_split:we_just": 1,
+    "hard:subject_pronoun_split:we_got": 1,
+    "soft:left_bad_end:these": 1,
+    "hard:subject_pronoun_split:you_to": 1,
+    "hard:subject_pronoun_split:you_so": 1,
+    "soft:left_bad_end:much": 1
+  },
+  "samples": [
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 6,
+      "boundary": 5,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "them",
+      "right_word": "up,",
+      "parser_only_cost": 270.0,
+      "current_cost": 412.0,
+      "reasons": [
+        "soft:right_bad_start:up",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "And instead of splitting them",
+      "right_context": "up, which sounds a little kinda slower, they",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 6,
+      "boundary": 6,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "up,",
+      "right_word": "which",
+      "parser_only_cost": 180.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:up",
+        "hard:right_dependent_clause_start:which",
+        "soft:right_bad_start:which",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "And instead of splitting them up,",
+      "right_context": "which sounds a little kinda slower, they just",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 6,
+      "boundary": 12,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "slower,",
+      "right_word": "they",
+      "parser_only_cost": 90.0,
+      "current_cost": 57.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "them up, which sounds a little kinda slower,",
+      "right_context": "they just put them all together as if",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 6,
+      "boundary": 16,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "them",
+      "right_word": "all",
+      "parser_only_cost": 180.0,
+      "current_cost": 192.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "a little kinda slower, they just put them",
+      "right_context": "all together as if one sentence is one",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 6,
+      "boundary": 17,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "all",
+      "right_word": "together",
+      "parser_only_cost": 270.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:left_bad_end:all",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "little kinda slower, they just put them all",
+      "right_context": "together as if one sentence is one big",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 6,
+      "boundary": 18,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "together",
+      "right_word": "as",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:as",
+        "soft:right_bad_start:as",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "kinda slower, they just put them all together",
+      "right_context": "as if one sentence is one big word,",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 6,
+      "boundary": 26,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "word,",
+      "right_word": "they",
+      "parser_only_cost": 0.0,
+      "current_cost": -33.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "as if one sentence is one big word,",
+      "right_context": "they emit some syllables, they add some new",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 6,
+      "boundary": 27,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "they",
+      "right_word": "emit",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:subject_pronoun_split:they_emit",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "if one sentence is one big word, they",
+      "right_context": "emit some syllables, they add some new sounds,",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 6,
+      "boundary": 28,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "emit",
+      "right_word": "some",
+      "parser_only_cost": 360.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "one sentence is one big word, they emit",
+      "right_context": "some syllables, they add some new sounds, and",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 6,
+      "boundary": 30,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "syllables,",
+      "right_word": "they",
+      "parser_only_cost": 0.0,
+      "current_cost": -33.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "is one big word, they emit some syllables,",
+      "right_context": "they add some new sounds, and this is",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 6,
+      "boundary": 31,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "they",
+      "right_word": "add",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:subject_pronoun_split:they_add",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "one big word, they emit some syllables, they",
+      "right_context": "add some new sounds, and this is why",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 6,
+      "boundary": 35,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "sounds,",
+      "right_word": "and",
+      "parser_only_cost": 90.0,
+      "current_cost": 22.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "emit some syllables, they add some new sounds,",
+      "right_context": "and this is why they sound the way",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 6,
+      "boundary": 36,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "and",
+      "right_word": "this",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:and",
+        "soft:left_bad_end:and",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "some syllables, they add some new sounds, and",
+      "right_context": "this is why they sound the way they",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 6,
+      "boundary": 39,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "why",
+      "right_word": "they",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:why",
+        "soft:left_bad_end:why",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "add some new sounds, and this is why",
+      "right_context": "they sound the way they sound.",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 6,
+      "boundary": 41,
+      "unit_word_count": 45,
+      "unit_duration": 15.89,
+      "left_word": "sound",
+      "right_word": "the",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_determiner_start:the",
+        "soft:right_bad_start:the",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "new sounds, and this is why they sound",
+      "right_context": "the way they sound.",
+      "unit_text": "And instead of splitting them up, which sounds a little kinda slower, they just put them all together as if one sentence is one big word, they emit some syllables, they add some new sounds, and this is why they sound the way they sound."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 9,
+      "boundary": 4,
+      "unit_word_count": 36,
+      "unit_duration": 13.485,
+      "left_word": "you",
+      "right_word": "how",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:subject_pronoun_split:you_how",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "I'm gonna teach you",
+      "right_context": "how native speakers do it so you can",
+      "unit_text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 9,
+      "boundary": 8,
+      "unit_word_count": 36,
+      "unit_duration": 13.485,
+      "left_word": "do",
+      "right_word": "it",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:do",
+        "soft:right_object_pronoun_start:it",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "I'm gonna teach you how native speakers do",
+      "right_context": "it so you can do it to sound",
+      "unit_text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 9,
+      "boundary": 9,
+      "unit_word_count": 36,
+      "unit_duration": 13.485,
+      "left_word": "it",
+      "right_word": "so",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:subject_pronoun_split:it_so",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "gonna teach you how native speakers do it",
+      "right_context": "so you can do it to sound more",
+      "unit_text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 9,
+      "boundary": 10,
+      "unit_word_count": 36,
+      "unit_duration": 13.485,
+      "left_word": "so",
+      "right_word": "you",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:so",
+        "soft:left_bad_end:so",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "teach you how native speakers do it so",
+      "right_context": "you can do it to sound more native",
+      "unit_text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 9,
+      "boundary": 14,
+      "unit_word_count": 36,
+      "unit_duration": 13.485,
+      "left_word": "it",
+      "right_word": "to",
+      "parser_only_cost": 180.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:subject_pronoun_split:it_to",
+        "soft:right_bad_start:to",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "speakers do it so you can do it",
+      "right_context": "to sound more native and so that you",
+      "unit_text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 9,
+      "boundary": 18,
+      "unit_word_count": 36,
+      "unit_duration": 13.485,
+      "left_word": "native",
+      "right_word": "and",
+      "parser_only_cost": 90.0,
+      "current_cost": 67.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "you can do it to sound more native",
+      "right_context": "and so that you understand the mechanics behind",
+      "unit_text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 9,
+      "boundary": 19,
+      "unit_word_count": 36,
+      "unit_duration": 13.485,
+      "left_word": "and",
+      "right_word": "so",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:and",
+        "soft:left_bad_end:and",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "can do it to sound more native and",
+      "right_context": "so that you understand the mechanics behind kind",
+      "unit_text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 9,
+      "boundary": 30,
+      "unit_word_count": 36,
+      "unit_duration": 13.485,
+      "left_word": "speaking",
+      "right_word": "so",
+      "parser_only_cost": 90.0,
+      "current_cost": 67.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "understand the mechanics behind kind of faster speaking",
+      "right_context": "so you can understand native speakers.",
+      "unit_text": "I'm gonna teach you how native speakers do it so you can do it to sound more native and so that you understand the mechanics behind kind of faster speaking so you can understand native speakers."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 9,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "do?",
+      "right_word": "But",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:do"
+      ],
+      "left_context": "example, in a sentence, what do you do?",
+      "right_context": "But Americans would never say it like this,",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 10,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "But",
+      "right_word": "Americans",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:but",
+        "soft:left_bad_end:but"
+      ],
+      "left_context": "in a sentence, what do you do? But",
+      "right_context": "Americans would never say it like this, what",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 11,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "Americans",
+      "right_word": "would",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:would",
+        "soft:right_bad_start:would",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "a sentence, what do you do? But Americans",
+      "right_context": "would never say it like this, what do",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 15,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "it",
+      "right_word": "like",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:subject_pronoun_split:it_like",
+        "soft:right_bad_start:like",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "you do? But Americans would never say it",
+      "right_context": "like this, what do you do? They would",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 11,
+      "boundary": 17,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "this,",
+      "right_word": "what",
+      "parser_only_cost": 0.0,
+      "current_cost": 57.0,
+      "reasons": [
+        "soft:left_bad_end:this",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "But Americans would never say it like this,",
+      "right_context": "what do you do? They would say, what",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 18,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "what",
+      "right_word": "do",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:do",
+        "soft:left_bad_end:what",
+        "soft:right_bad_start:do",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "Americans would never say it like this, what",
+      "right_context": "do you do? They would say, what do",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 21,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "do?",
+      "right_word": "They",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:do"
+      ],
+      "left_context": "say it like this, what do you do?",
+      "right_context": "They would say, what do you do? What",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 22,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "They",
+      "right_word": "would",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:would",
+        "hard:subject_pronoun_split:they_would",
+        "soft:right_bad_start:would",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "it like this, what do you do? They",
+      "right_context": "would say, what do you do? What do",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 11,
+      "boundary": 24,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "say,",
+      "right_word": "what",
+      "parser_only_cost": 360.0,
+      "current_cost": 327.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "this, what do you do? They would say,",
+      "right_context": "what do you do? What do you do?",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 28,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "do?",
+      "right_word": "What",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:do"
+      ],
+      "left_context": "do? They would say, what do you do?",
+      "right_context": "What do you do? So the speed, the",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 29,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "What",
+      "right_word": "do",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:do",
+        "soft:left_bad_end:what",
+        "soft:right_bad_start:do",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "They would say, what do you do? What",
+      "right_context": "do you do? So the speed, the pace",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 32,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "do?",
+      "right_word": "So",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:do"
+      ],
+      "left_context": "what do you do? What do you do?",
+      "right_context": "So the speed, the pace is kind of",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 33,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "So",
+      "right_word": "the",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:so",
+        "hard:right_determiner_start:the",
+        "soft:left_bad_end:so",
+        "soft:right_bad_start:the",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "do you do? What do you do? So",
+      "right_context": "the speed, the pace is kind of the",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 11,
+      "boundary": 35,
+      "unit_word_count": 42,
+      "unit_duration": 13.8,
+      "left_word": "speed,",
+      "right_word": "the",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_determiner_start:the",
+        "soft:right_bad_start:the",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "do? What do you do? So the speed,",
+      "right_context": "the pace is kind of the same.",
+      "unit_text": "For example, in a sentence, what do you do? But Americans would never say it like this, what do you do? They would say, what do you do? What do you do? So the speed, the pace is kind of the same."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 8,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "noticed,",
+      "right_word": "when",
+      "parser_only_cost": 160.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:when",
+        "soft:right_bad_start:when",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "And another thing that you might have noticed,",
+      "right_context": "when we say what do, so we have",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 9,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "when",
+      "right_word": "we",
+      "parser_only_cost": 250.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:when",
+        "soft:left_bad_end:when",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "another thing that you might have noticed, when",
+      "right_context": "we say what do, so we have T",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 13,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "do,",
+      "right_word": "so",
+      "parser_only_cost": 250.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:do",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "might have noticed, when we say what do,",
+      "right_context": "so we have T at the end of",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 14,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "so",
+      "right_word": "we",
+      "parser_only_cost": 340.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:so",
+        "soft:left_bad_end:so",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "have noticed, when we say what do, so",
+      "right_context": "we have T at the end of the",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 29,
+      "boundary": 23,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "word",
+      "right_word": "what",
+      "parser_only_cost": 90.0,
+      "current_cost": 102.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "have T at the end of the word",
+      "right_context": "what and we have D at the beginning",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "soft_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 28,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "D",
+      "right_word": "at",
+      "parser_only_cost": 360.0,
+      "current_cost": 502.0,
+      "reasons": [
+        "soft:right_bad_start:at",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "of the word what and we have D",
+      "right_context": "at the beginning of the word do, we",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "soft_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 31,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "beginning",
+      "right_word": "of",
+      "parser_only_cost": 360.0,
+      "current_cost": 502.0,
+      "reasons": [
+        "soft:right_bad_start:of",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "what and we have D at the beginning",
+      "right_context": "of the word do, we kind of invent",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 34,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "word",
+      "right_word": "do,",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:do",
+        "soft:right_bad_start:do",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "have D at the beginning of the word",
+      "right_context": "do, we kind of invent a new sound",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 35,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "do,",
+      "right_word": "we",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:do",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "D at the beginning of the word do,",
+      "right_context": "we kind of invent a new sound here.",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 29,
+      "boundary": 36,
+      "unit_word_count": 43,
+      "unit_duration": 13.207,
+      "left_word": "we",
+      "right_word": "kind",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:subject_pronoun_split:we_kind",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "at the beginning of the word do, we",
+      "right_context": "kind of invent a new sound here.",
+      "unit_text": "And another thing that you might have noticed, when we say what do, so we have T at the end of the word what and we have D at the beginning of the word do, we kind of invent a new sound here."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 6,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "living",
+      "right_word": "to",
+      "parser_only_cost": 250.0,
+      "current_cost": 392.0,
+      "reasons": [
+        "soft:right_bad_start:to",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "what you do for a living",
+      "right_context": "to make this even clearer for you i'm",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 13,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "you",
+      "right_word": "i'm",
+      "parser_only_cost": 160.0,
+      "current_cost": 172.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "living to make this even clearer for you",
+      "right_context": "i'm gonna read a sentence out loud the",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 20,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "loud",
+      "right_word": "the",
+      "parser_only_cost": 360.0,
+      "current_cost": 202.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "you i'm gonna read a sentence out loud",
+      "right_context": "the first time i read it i'm gonna",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 23,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "time",
+      "right_word": "i",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_hanging_temporal_starter",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "read a sentence out loud the first time",
+      "right_context": "i read it i'm gonna read it as",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "soft_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 25,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "read",
+      "right_word": "it",
+      "parser_only_cost": 360.0,
+      "current_cost": 792.0,
+      "reasons": [
+        "soft:right_object_pronoun_start:it",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "sentence out loud the first time i read",
+      "right_context": "it i'm gonna read it as a student",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 26,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "it",
+      "right_word": "i'm",
+      "parser_only_cost": 0.0,
+      "current_cost": 12.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "out loud the first time i read it",
+      "right_context": "i'm gonna read it as a student the",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 33,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "student",
+      "right_word": "the",
+      "parser_only_cost": 360.0,
+      "current_cost": 202.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "it i'm gonna read it as a student",
+      "right_context": "the second time i read it i would",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 36,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "time",
+      "right_word": "i",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_hanging_temporal_starter",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "read it as a student the second time",
+      "right_context": "i read it i would try to read",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "soft_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 38,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "read",
+      "right_word": "it",
+      "parser_only_cost": 360.0,
+      "current_cost": 792.0,
+      "reasons": [
+        "soft:right_object_pronoun_start:it",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "as a student the second time i read",
+      "right_context": "it i would try to read it as",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 39,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "it",
+      "right_word": "i",
+      "parser_only_cost": 0.0,
+      "current_cost": 12.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "a student the second time i read it",
+      "right_context": "i would try to read it as a",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 40,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "i",
+      "right_word": "would",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:would",
+        "hard:subject_pronoun_split:i_would",
+        "soft:right_bad_start:would",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "student the second time i read it i",
+      "right_context": "would try to read it as a native",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "soft_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 42,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "try",
+      "right_word": "to",
+      "parser_only_cost": 360.0,
+      "current_cost": 502.0,
+      "reasons": [
+        "soft:right_bad_start:to",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "second time i read it i would try",
+      "right_context": "to read it as a native speaker let's",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 45,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "it",
+      "right_word": "as",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:as",
+        "hard:subject_pronoun_split:it_as",
+        "soft:right_bad_start:as",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "read it i would try to read it",
+      "right_context": "as a native speaker let's do it i",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 49,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "speaker",
+      "right_word": "let's",
+      "parser_only_cost": 0.0,
+      "current_cost": 12.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "try to read it as a native speaker",
+      "right_context": "let's do it i am going to go",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 50,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "let's",
+      "right_word": "do",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:do",
+        "soft:right_bad_start:do",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "to read it as a native speaker let's",
+      "right_context": "do it i am going to go out",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 51,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "do",
+      "right_word": "it",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:do",
+        "soft:right_object_pronoun_start:it",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "read it as a native speaker let's do",
+      "right_context": "it i am going to go out to",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 52,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "it",
+      "right_word": "i",
+      "parser_only_cost": 0.0,
+      "current_cost": 12.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "it as a native speaker let's do it",
+      "right_context": "i am going to go out to walmart",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 53,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "i",
+      "right_word": "am",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:am",
+        "hard:subject_pronoun_split:i_am",
+        "soft:right_bad_start:am",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "as a native speaker let's do it i",
+      "right_context": "am going to go out to walmart do",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "soft_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 55,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "going",
+      "right_word": "to",
+      "parser_only_cost": 360.0,
+      "current_cost": 502.0,
+      "reasons": [
+        "soft:right_bad_start:to",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "native speaker let's do it i am going",
+      "right_context": "to go out to walmart do you need",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 58,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "out",
+      "right_word": "to",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_strong_bad_end:out",
+        "soft:right_bad_start:to",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "do it i am going to go out",
+      "right_context": "to walmart do you need anything I'm gonna",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 32,
+      "boundary": 60,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "walmart",
+      "right_word": "do",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:do",
+        "soft:right_bad_start:do",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "i am going to go out to walmart",
+      "right_context": "do you need anything I'm gonna go to",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 32,
+      "boundary": 63,
+      "unit_word_count": 69,
+      "unit_duration": 21.675,
+      "left_word": "need",
+      "right_word": "anything",
+      "parser_only_cost": 360.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "to go out to walmart do you need",
+      "right_context": "anything I'm gonna go to Walmart.",
+      "unit_text": "what you do for a living to make this even clearer for you i'm gonna read a sentence out loud the first time i read it i'm gonna read it as a student the second time i read it i would try to read it as a native speaker let's do it i am going to go out to walmart do you need anything I'm gonna go to Walmart."
+    },
+    {
+      "bucket": "soft_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 6,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "confusing",
+      "right_word": "i",
+      "parser_only_cost": 360.0,
+      "current_cost": 492.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "the next word a little confusing",
+      "right_context": "i know especially when you hear this first",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 8,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "know",
+      "right_word": "especially",
+      "parser_only_cost": 90.0,
+      "current_cost": 102.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "the next word a little confusing i know",
+      "right_context": "especially when you hear this first in a",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 9,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "especially",
+      "right_word": "when",
+      "parser_only_cost": 180.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:when",
+        "soft:right_bad_start:when",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "next word a little confusing i know especially",
+      "right_context": "when you hear this first in a native",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 10,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "when",
+      "right_word": "you",
+      "parser_only_cost": 270.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:when",
+        "soft:left_bad_end:when",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "word a little confusing i know especially when",
+      "right_context": "you hear this first in a native speaker",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 19,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "speech",
+      "right_word": "something",
+      "parser_only_cost": 360.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "hear this first in a native speaker speech",
+      "right_context": "something they say something uh i don't know",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 20,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "something",
+      "right_word": "they",
+      "parser_only_cost": 90.0,
+      "current_cost": 102.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "this first in a native speaker speech something",
+      "right_context": "they say something uh i don't know why",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 22,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "say",
+      "right_word": "something",
+      "parser_only_cost": 360.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "in a native speaker speech something they say",
+      "right_context": "something uh i don't know why this appears",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 23,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "something",
+      "right_word": "uh",
+      "parser_only_cost": 0.0,
+      "current_cost": 12.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "a native speaker speech something they say something",
+      "right_context": "uh i don't know why this appears is",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 24,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "uh",
+      "right_word": "i",
+      "parser_only_cost": 0.0,
+      "current_cost": 12.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "native speaker speech something they say something uh",
+      "right_context": "i don't know why this appears is just",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 25,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "i",
+      "right_word": "don't",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:don't",
+        "hard:subject_pronoun_split:i_don't",
+        "soft:right_bad_start:don't",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "speaker speech something they say something uh i",
+      "right_context": "don't know why this appears is just the",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 30,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "appears",
+      "right_word": "is",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:is",
+        "soft:right_bad_start:is",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "something uh i don't know why this appears",
+      "right_context": "is just the way the language evolves when",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 34,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "way",
+      "right_word": "the",
+      "parser_only_cost": 180.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_determiner_start:the",
+        "soft:right_bad_start:the",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "know why this appears is just the way",
+      "right_context": "the language evolves when people speak it but",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 37,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "evolves",
+      "right_word": "when",
+      "parser_only_cost": 180.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:when",
+        "soft:right_bad_start:when",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "appears is just the way the language evolves",
+      "right_context": "when people speak it but can you give",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 38,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "when",
+      "right_word": "people",
+      "parser_only_cost": 270.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:when",
+        "soft:left_bad_end:when",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "is just the way the language evolves when",
+      "right_context": "people speak it but can you give me",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 41,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "it",
+      "right_word": "but",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:subject_pronoun_split:it_but",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "way the language evolves when people speak it",
+      "right_context": "but can you give me something this is",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 42,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "but",
+      "right_word": "can",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:but",
+        "hard:right_aux_modal_negator_start:can",
+        "soft:left_bad_end:but",
+        "soft:right_bad_start:can",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "the language evolves when people speak it but",
+      "right_context": "can you give me something this is sometimes",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 46,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "me",
+      "right_word": "something",
+      "parser_only_cost": 360.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "people speak it but can you give me",
+      "right_context": "something this is sometimes what native speakers say",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 47,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "something",
+      "right_word": "this",
+      "parser_only_cost": 90.0,
+      "current_cost": 102.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "speak it but can you give me something",
+      "right_context": "this is sometimes what native speakers say which",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 51,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "what",
+      "right_word": "native",
+      "parser_only_cost": 90.0,
+      "current_cost": 192.0,
+      "reasons": [
+        "soft:left_bad_end:what",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "you give me something this is sometimes what",
+      "right_context": "native speakers say which is correct uh don't",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 52,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "native",
+      "right_word": "speakers",
+      "parser_only_cost": 180.0,
+      "current_cost": 192.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "give me something this is sometimes what native",
+      "right_context": "speakers say which is correct uh don't be",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 54,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "say",
+      "right_word": "which",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:which",
+        "soft:right_bad_start:which",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "something this is sometimes what native speakers say",
+      "right_context": "which is correct uh don't be confused it's",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 57,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "correct",
+      "right_word": "uh",
+      "parser_only_cost": 0.0,
+      "current_cost": 12.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "sometimes what native speakers say which is correct",
+      "right_context": "uh don't be confused it's just the same",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 39,
+      "boundary": 58,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "uh",
+      "right_word": "don't",
+      "parser_only_cost": 0.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:don't",
+        "soft:right_bad_start:don't",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "what native speakers say which is correct uh",
+      "right_context": "don't be confused it's just the same as",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 39,
+      "boundary": 61,
+      "unit_word_count": 67,
+      "unit_duration": 24.118,
+      "left_word": "confused",
+      "right_word": "it's",
+      "parser_only_cost": 360.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "say which is correct uh don't be confused",
+      "right_context": "it's just the same as something",
+      "unit_text": "the next word a little confusing i know especially when you hear this first in a native speaker speech something they say something uh i don't know why this appears is just the way the language evolves when people speak it but can you give me something this is sometimes what native speakers say which is correct uh don't be confused it's just the same as something"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 5,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "way",
+      "right_word": "to",
+      "parser_only_cost": 90.0,
+      "current_cost": 232.0,
+      "reasons": [
+        "soft:right_bad_start:to",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "This is first the way",
+      "right_context": "to speak faster, second this is the way",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 7,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "speak",
+      "right_word": "faster,",
+      "parser_only_cost": 90.0,
+      "current_cost": 102.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "This is first the way to speak",
+      "right_context": "faster, second this is the way to speak",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 8,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "faster,",
+      "right_word": "second",
+      "parser_only_cost": 0.0,
+      "current_cost": -33.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "This is first the way to speak faster,",
+      "right_context": "second this is the way to speak more",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 9,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "second",
+      "right_word": "this",
+      "parser_only_cost": 90.0,
+      "current_cost": 102.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "is first the way to speak faster, second",
+      "right_context": "this is the way to speak more naturally,",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 13,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "way",
+      "right_word": "to",
+      "parser_only_cost": 180.0,
+      "current_cost": 322.0,
+      "reasons": [
+        "soft:right_bad_start:to",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "to speak faster, second this is the way",
+      "right_context": "to speak more naturally, and third this is",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 15,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "speak",
+      "right_word": "more",
+      "parser_only_cost": 180.0,
+      "current_cost": 192.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "faster, second this is the way to speak",
+      "right_context": "more naturally, and third this is an easier",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 16,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "more",
+      "right_word": "naturally,",
+      "parser_only_cost": 270.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:left_bad_end:more",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "second this is the way to speak more",
+      "right_context": "naturally, and third this is an easier way",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 17,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "naturally,",
+      "right_word": "and",
+      "parser_only_cost": 90.0,
+      "current_cost": 22.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "this is the way to speak more naturally,",
+      "right_context": "and third this is an easier way to",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 66,
+      "boundary": 18,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "and",
+      "right_word": "third",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:and",
+        "soft:left_bad_end:and",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "is the way to speak more naturally, and",
+      "right_context": "third this is an easier way to understand",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 19,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "third",
+      "right_word": "this",
+      "parser_only_cost": 180.0,
+      "current_cost": 192.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "the way to speak more naturally, and third",
+      "right_context": "this is an easier way to understand native",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 24,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "way",
+      "right_word": "to",
+      "parser_only_cost": 180.0,
+      "current_cost": 322.0,
+      "reasons": [
+        "soft:right_bad_start:to",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "naturally, and third this is an easier way",
+      "right_context": "to understand native speakers because you now know",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 66,
+      "boundary": 28,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "speakers",
+      "right_word": "because",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:because",
+        "soft:right_bad_start:because",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "is an easier way to understand native speakers",
+      "right_context": "because you now know how the mechanics work.",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 66,
+      "boundary": 32,
+      "unit_word_count": 36,
+      "unit_duration": 12.507,
+      "left_word": "know",
+      "right_word": "how",
+      "parser_only_cost": 360.0,
+      "current_cost": 372.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "to understand native speakers because you now know",
+      "right_context": "how the mechanics work.",
+      "unit_text": "This is first the way to speak faster, second this is the way to speak more naturally, and third this is an easier way to understand native speakers because you now know how the mechanics work."
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 69,
+      "boundary": 4,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "noticed",
+      "right_word": "is",
+      "parser_only_cost": 160.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_aux_modal_negator_start:is",
+        "soft:right_bad_start:is",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "And what I've noticed",
+      "right_context": "is that people who are not English native",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 69,
+      "boundary": 20,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "textbook",
+      "right_word": "so",
+      "parser_only_cost": 360.0,
+      "current_cost": 337.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "speakers we're using a language that is textbook",
+      "right_context": "so there were some people who are in",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 69,
+      "boundary": 30,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "US",
+      "right_word": "and",
+      "parser_only_cost": 360.0,
+      "current_cost": 337.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "were some people who are in the US",
+      "right_context": "and their language was completely different and when",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 69,
+      "boundary": 31,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "and",
+      "right_word": "their",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:and",
+        "hard:right_determiner_start:their",
+        "soft:left_bad_end:and",
+        "soft:right_bad_start:their",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "some people who are in the US and",
+      "right_context": "their language was completely different and when was",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 69,
+      "boundary": 36,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "different",
+      "right_word": "and",
+      "parser_only_cost": 270.0,
+      "current_cost": 247.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "the US and their language was completely different",
+      "right_context": "and when was listening to those people I",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 69,
+      "boundary": 37,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "and",
+      "right_word": "when",
+      "parser_only_cost": 270.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:and",
+        "hard:right_dependent_clause_start:when",
+        "soft:left_bad_end:and",
+        "soft:right_bad_start:when",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "US and their language was completely different and",
+      "right_context": "when was listening to those people I started",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 69,
+      "boundary": 38,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "when",
+      "right_word": "was",
+      "parser_only_cost": 360.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:when",
+        "hard:right_aux_modal_negator_start:was",
+        "soft:left_bad_end:when",
+        "soft:right_bad_start:was",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "and their language was completely different and when",
+      "right_context": "was listening to those people I started noting",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 69,
+      "boundary": 48,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "differences",
+      "right_word": "and",
+      "parser_only_cost": 270.0,
+      "current_cost": 247.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "to those people I started noting those differences",
+      "right_context": "and I decided to share my insights with",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 69,
+      "boundary": 49,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "and",
+      "right_word": "I",
+      "parser_only_cost": 270.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:and",
+        "soft:left_bad_end:and"
+      ],
+      "left_context": "those people I started noting those differences and",
+      "right_context": "I decided to share my insights with you",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 69,
+      "boundary": 57,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "you",
+      "right_word": "because",
+      "parser_only_cost": 180.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:because",
+        "soft:right_bad_start:because",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "I decided to share my insights with you",
+      "right_context": "because with these insights you will be able",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 69,
+      "boundary": 72,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "speaker",
+      "right_word": "and",
+      "parser_only_cost": 90.0,
+      "current_cost": 67.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "able to speak English as a native speaker",
+      "right_context": "and you wouldn't sound I would say a",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 69,
+      "boundary": 73,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "and",
+      "right_word": "you",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:left_connector:and",
+        "soft:left_bad_end:and",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "to speak English as a native speaker and",
+      "right_context": "you wouldn't sound I would say a little",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "hard_fallback_blocked",
+      "unit_id": 69,
+      "boundary": 82,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "old-fashioned",
+      "right_word": "because",
+      "parser_only_cost": 90.0,
+      "current_cost": "inf",
+      "reasons": [
+        "hard:right_dependent_clause_start:because",
+        "soft:right_bad_start:because",
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "wouldn't sound I would say a little old-fashioned",
+      "right_context": "because when you're using this textbook English you",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    },
+    {
+      "bucket": "risky_still_allowed",
+      "unit_id": 69,
+      "boundary": 95,
+      "unit_word_count": 131,
+      "unit_duration": 48.404,
+      "left_word": "academic",
+      "right_word": "or",
+      "parser_only_cost": 90.0,
+      "current_cost": 67.0,
+      "reasons": [
+        "soft:right_lowercase_without_final_punctuation"
+      ],
+      "left_context": "textbook English you sound a little too academic",
+      "right_context": "or a little too old-fashioned with these tips",
+      "unit_text": "And what I've noticed is that people who are not English native speakers we're using a language that is textbook so there were some people who are in the US and their language was completely different and when was listening to those people I started noting those differences and I decided to share my insights with you because with these insights you will be able to speak English as a native speaker and you wouldn't sound I would say a little old-fashioned because when you're using this textbook English you sound a little too academic or a little too old-fashioned with these tips by the end of this class your English will be more native will be more kind of American and modern so if you're interested continue watching this video"
+    }
+  ]
+}
