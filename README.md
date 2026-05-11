@@ -14,6 +14,8 @@ The current direction is local-only and grammar-first: use Stanza dependency par
 - `sentence_units_structural_policy_test.json`: latest structural-policy test output.
 - `GRAMMAR_DEPENDENCY_CLAUSE_SPLITTING.md`: design notes and lessons learned for grammar-based clause splitting.
 - `audit_lexical_fallback_ablation.py`: audit script for measuring how much lexical fallback had been doing.
+- `REPO_ANALYSIS.md`: repository orientation notes.
+- `build_llm_cutpoint_prompt.py`: legacy helper for building an index-annotated LLM prompt.
 
 ## Current Workflow
 
@@ -56,3 +58,14 @@ The key design idea is to avoid word-list rules like "because cannot start" or "
 - Global choice: use dynamic programming to prefer complete segments over shorter but broken ones.
 
 See `GRAMMAR_DEPENDENCY_CLAUSE_SPLITTING.md` for the full strategy summary.
+
+## Legacy LLM Prompt Helper
+
+The current splitter does not rely on an LLM. For older cut-point experiments, you can still generate an index-annotated prompt where every token has its absolute word index, for example `word[123]`:
+
+```powershell
+.\.venv\Scripts\python.exe build_llm_cutpoint_prompt.py `
+  --input transcribe-whisperx_result.json `
+  --output llm_cutpoint_prompt.txt `
+  --index-style suffix
+```
